@@ -8,7 +8,7 @@ This character is themed around the game Escape From Tarkov. Start out as a hatc
 ### Requirements:
 - [TNH Tweaker](https://github.com/devyndamonster/TakeAndHoldTweaker)
 
-### Installation
+### Manual Installation
 Drag the .zip file into your `BepInEx/plugins` folder and unzip
 
 ### Supported Mods
