@@ -1,0 +1,136 @@
+{
+  "FileName": "vault_aks2",
+  "Components": [
+    {
+      "Index": 0,
+      "ObjectID": "ModulAKS",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": -1,
+      "MountAttachedTo": -1,
+      "IsFirearm": true,
+      "IsMagazine": false,
+      "IsAttachment": false,
+      "Flags": {
+        "HammerState": "Uncocked",
+        "FireSelectorState": "1"
+      }
+    },
+    {
+      "Index": 1,
+      "ObjectID": "AKStockAKS",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0273000356,
+        "z": -0.0367998555
+      },
+      "OrientationForward": {
+        "x": 1.45661261E-13,
+        "y": 4.887581E-06,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 5.96046448E-08,
+        "y": 1.0,
+        "z": -4.887581E-06
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 1,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 2,
+      "ObjectID": "AKSForeB11",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0564999655,
+        "z": 0.277400345
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 1.86264493E-09,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 4,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 3,
+      "ObjectID": "AKSDustcover2",
+      "PosOffset": {
+        "x": 0.00200009067,
+        "y": 0.0654000044,
+        "z": -0.03400011
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": -5.96046448E-07,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 5.96046448E-07
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 6,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 4,
+      "ObjectID": "AKGripAK12",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.007500046,
+        "z": 0.001978633
+      },
+      "OrientationForward": {
+        "x": -1.49011594E-08,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 5,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    }
+  ],
+  "LoadedRoundsInMag": [],
+  "LoadedRoundsInChambers": [],
+  "SavedFlags": []
+}

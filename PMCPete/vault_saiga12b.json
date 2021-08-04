@@ -1,0 +1,203 @@
+{
+  "FileName": "vault_saiga12b",
+  "LoadedRoundsInMag": [],
+  "LoadedRoundsInChambers": [],
+  "SavedFlags": [],
+  "OverrideFireRate": false,
+  "SpeedRearward": -4.0,
+  "SpeedForward": 2.2,
+  "SpringStiffness": 150.0,
+  "OverrideFireSelectors": false,
+  "FireSelectorModes": [
+    {
+      "SelectorPosition": -103.939,
+      "ModeType": "Safe",
+      "BurstAmount": 0
+    },
+    {
+      "SelectorPosition": -81.439,
+      "ModeType": "Single",
+      "BurstAmount": 0
+    }
+  ],
+  "Components": [
+    {
+      "Index": 0,
+      "ObjectID": "Saiga12_Base",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": -1,
+      "MountAttachedTo": -1,
+      "IsFirearm": true,
+      "IsMagazine": false,
+      "IsAttachment": false,
+      "Flags": {
+        "HammerState": "Cocked",
+        "FireSelectorState": "1"
+      }
+    },
+    {
+      "Index": 1,
+      "ObjectID": "SaigaDustcover",
+      "PosOffset": {
+        "x": 1.19208728E-07,
+        "y": 0.0651999041,
+        "z": -0.0296999365
+      },
+      "OrientationForward": {
+        "x": -1.90734886E-06,
+        "y": 2.14576744E-06,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 2.04636351E-12,
+        "y": 1.0,
+        "z": -2.14576744E-06
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 3,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 2,
+      "ObjectID": "AKStockSFS",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.028399976,
+        "z": -0.0317000225
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 2,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 3,
+      "ObjectID": "AR15TubeA2Black",
+      "PosOffset": {
+        "x": 0.00520000374,
+        "y": 0.0316860341,
+        "z": -0.0998877361
+      },
+      "OrientationForward": {
+        "x": -5.960463E-08,
+        "y": 4.947184E-06,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 1.47437536E-13,
+        "y": 1.0,
+        "z": -4.947184E-06
+      },
+      "ObjectAttachedTo": 2,
+      "MountAttachedTo": 0,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 4,
+      "ObjectID": "AR15StockMOE_od",
+      "PosOffset": {
+        "x": 0.00520000374,
+        "y": 0.0316852,
+        "z": -0.2798874
+      },
+      "OrientationForward": {
+        "x": -1.42996753E-13,
+        "y": 4.91738365E-06,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": -5.960465E-08,
+        "y": 1.0,
+        "z": -4.91738365E-06
+      },
+      "ObjectAttachedTo": 3,
+      "MountAttachedTo": 0,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 5,
+      "ObjectID": "Saiga Fore Long",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0471999757,
+        "z": 0.2179
+      },
+      "OrientationForward": {
+        "x": -1.490117E-08,
+        "y": -2.98023135E-08,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": -7.74860268E-07,
+        "y": -1.0,
+        "z": -2.98023259E-08
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 4,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 6,
+      "ObjectID": "AKGripSAWblk",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.00610017171,
+        "z": 0.0121786166
+      },
+      "OrientationForward": {
+        "x": 2.08685083E-06,
+        "y": -0.000102668972,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 1.34109359E-05,
+        "y": -1.0,
+        "z": -0.000102669
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 5,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    }
+  ]
+}

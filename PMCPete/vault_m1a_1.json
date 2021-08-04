@@ -1,0 +1,178 @@
+{
+  "FileName": "vault_m1a_1",
+  "LoadedRoundsInMag": [],
+  "LoadedRoundsInChambers": [],
+  "SavedFlags": [],
+  "OverrideFireRate": false,
+  "SpeedRearward": -4.0,
+  "SpeedForward": 4.0,
+  "SpringStiffness": 150.0,
+  "OverrideFireSelectors": false,
+  "FireSelectorModes": [
+    {
+      "SelectorPosition": 0.10968,
+      "ModeType": "Safe",
+      "BurstAmount": 0
+    },
+    {
+      "SelectorPosition": 0.1234,
+      "ModeType": "Single",
+      "BurstAmount": 0
+    }
+  ],
+  "Components": [
+    {
+      "Index": 0,
+      "ObjectID": "FTW.Gun.M1Framedupe",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": -1,
+      "MountAttachedTo": -1,
+      "IsFirearm": true,
+      "IsMagazine": false,
+      "IsAttachment": false,
+      "Flags": {
+        "HammerState": "Uncocked",
+        "FireSelectorState": "0"
+      }
+    },
+    {
+      "Index": 1,
+      "ObjectID": "FTW.Gun.SocomFrame",
+      "PosOffset": {
+        "x": 0.00160002371,
+        "y": 0.01349997,
+        "z": 0.0009000289
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 2,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 2,
+      "ObjectID": "FTW.Gun.barrel16",
+      "PosOffset": {
+        "x": 6.997571E-05,
+        "y": 0.0453400426,
+        "z": 0.2260999
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 7.450581E-09,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 0,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 3,
+      "ObjectID": "FTW.Gun.SocomUpper",
+      "PosOffset": {
+        "x": 0.0009000283,
+        "y": 0.0395001024,
+        "z": 0.443601251
+      },
+      "OrientationForward": {
+        "x": -1.1548392E-06,
+        "y": -1.10082385E-06,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": -1.19209346E-06,
+        "y": 1.0,
+        "z": 1.10082249E-06
+      },
+      "ObjectAttachedTo": 1,
+      "MountAttachedTo": 0,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 4,
+      "ObjectID": "FTW.Gun.FrontSight2",
+      "PosOffset": {
+        "x": 0.0019400079,
+        "y": 0.06672403,
+        "z": 0.6732499
+      },
+      "OrientationForward": {
+        "x": -3.259629E-09,
+        "y": -3.10363248E-07,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": -5.058345E-16,
+        "y": 1.0,
+        "z": 3.10363248E-07
+      },
+      "ObjectAttachedTo": 2,
+      "MountAttachedTo": 1,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 5,
+      "ObjectID": "FTW.Gun.RearSight",
+      "PosOffset": {
+        "x": 0.00269996561,
+        "y": 0.06649998,
+        "z": 0.08740008
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 3,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    }
+  ]
+}

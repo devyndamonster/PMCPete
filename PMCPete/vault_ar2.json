@@ -1,0 +1,258 @@
+{
+  "FileName": "vault_ar2",
+  "LoadedRoundsInMag": [],
+  "LoadedRoundsInChambers": [],
+  "SavedFlags": [],
+  "OverrideFireRate": false,
+  "SpeedRearward": -5.0,
+  "SpeedForward": 4.0,
+  "SpringStiffness": 200.0,
+  "OverrideFireSelectors": false,
+  "FireSelectorModes": [
+    {
+      "SelectorPosition": 90.0,
+      "ModeType": "Safe",
+      "BurstAmount": 3
+    },
+    {
+      "SelectorPosition": 0.0,
+      "ModeType": "Single",
+      "BurstAmount": 3
+    },
+    {
+      "SelectorPosition": -90.0,
+      "ModeType": "FullAuto",
+      "BurstAmount": 3
+    }
+  ],
+  "Components": [
+    {
+      "Index": 0,
+      "ObjectID": "ModulARLower",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": -1,
+      "MountAttachedTo": -1,
+      "IsFirearm": true,
+      "IsMagazine": false,
+      "IsAttachment": false,
+      "Flags": {
+        "HammerState": "Uncocked",
+        "FireSelectorState": "2"
+      }
+    },
+    {
+      "Index": 1,
+      "ObjectID": "AR15UpperLS",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0409000032,
+        "z": 0.13500005
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 3,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 2,
+      "ObjectID": "AR15StockSOCOm",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.05469999,
+        "z": -0.0397000052
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 2,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 3,
+      "ObjectID": "AR15ChargeRaptor",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.07400004,
+        "z": -0.0304999724
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 0,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 4,
+      "ObjectID": "AR15Barrel14,5in",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0551000535,
+        "z": 0.158700138
+      },
+      "OrientationForward": {
+        "x": -2.23517382E-08,
+        "y": 9.685753E-08,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 3.06121942E-16,
+        "y": 1.0,
+        "z": -9.685753E-08
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 4,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 5,
+      "ObjectID": "AR15ForeQDShort",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0557000935,
+        "z": 0.164600238
+      },
+      "OrientationForward": {
+        "x": 7.45057971E-09,
+        "y": 8.195637E-08,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": -1.94343517E-16,
+        "y": 1.0,
+        "z": -8.195637E-08
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 5,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 6,
+      "ObjectID": "AR15GripHG15",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.001310047,
+        "z": 0.001650084
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 1,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 7,
+      "ObjectID": "IronFrontSight",
+      "PosOffset": {
+        "x": -1.192084E-07,
+        "y": 0.08591021,
+        "z": 0.4075157
+      },
+      "OrientationForward": {
+        "x": -1.24016815E-23,
+        "y": 7.4505806E-08,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": -3.329051E-16,
+        "y": 1.0,
+        "z": -7.4505806E-08
+      },
+      "ObjectAttachedTo": 5,
+      "MountAttachedTo": 3,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 8,
+      "ObjectID": "IronRearSight",
+      "PosOffset": {
+        "x": 2.384168E-07,
+        "y": 0.08590389,
+        "z": 0.0312731564
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 1,
+      "MountAttachedTo": 0,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    }
+  ]
+}

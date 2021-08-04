@@ -1,0 +1,136 @@
+{
+  "FileName": "vault_m4skeleton",
+  "Components": [
+    {
+      "Index": 0,
+      "ObjectID": "PisLvrmodulARSkeleton",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": -1,
+      "MountAttachedTo": -1,
+      "IsFirearm": true,
+      "IsMagazine": false,
+      "IsAttachment": false,
+      "Flags": {
+        "HammerState": "Uncocked",
+        "FireSelectorState": "2"
+      }
+    },
+    {
+      "Index": 1,
+      "ObjectID": "AllGrips",
+      "PosOffset": {
+        "x": 6.61608938E-05,
+        "y": 0.00187593629,
+        "z": 0.00305389054
+      },
+      "OrientationForward": {
+        "x": 2.98023366E-08,
+        "y": -1.49011345E-08,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 1.78813934E-06,
+        "y": -1.0,
+        "z": -1.49011878E-08
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 2,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 2,
+      "ObjectID": "AttStockStandardM4",
+      "PosOffset": {
+        "x": 1.19208813E-07,
+        "y": 0.0560999326,
+        "z": -0.04130012
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 3,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 3,
+      "ObjectID": "AttSuppressorbarrel260mm",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0560999922,
+        "z": 0.169400215
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 0,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 4,
+      "ObjectID": "MFore",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.05519871,
+        "z": 0.174299926
+      },
+      "OrientationForward": {
+        "x": -2.44109233E-05,
+        "y": -0.000611043768,
+        "z": 0.9999998
+      },
+      "OrientationUp": {
+        "x": -0.00235629664,
+        "y": 0.999997,
+        "z": 0.0006109845
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 4,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    }
+  ],
+  "LoadedRoundsInMag": [],
+  "LoadedRoundsInChambers": [],
+  "SavedFlags": []
+}

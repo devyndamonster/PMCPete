@@ -1,0 +1,111 @@
+{
+  "FileName": "vault_133a",
+  "Components": [
+    {
+      "Index": 0,
+      "ObjectID": "Modul133",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": -1,
+      "MountAttachedTo": -1,
+      "IsFirearm": true,
+      "IsMagazine": false,
+      "IsAttachment": false,
+      "Flags": {
+        "HammerState": "Uncocked",
+        "SafetyState": "Off"
+      }
+    },
+    {
+      "Index": 1,
+      "ObjectID": "Fore133W",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.013800079,
+        "z": 0.365199924
+      },
+      "OrientationForward": {
+        "x": -1.11758727E-08,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 1,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 2,
+      "ObjectID": "Stock133W",
+      "PosOffset": {
+        "x": 1.19209226E-07,
+        "y": 0.0484999828,
+        "z": 0.0142998546
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 4,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 3,
+      "ObjectID": "Barrel133510",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.05929998,
+        "z": 0.2218001
+      },
+      "OrientationForward": {
+        "x": -1.25542283E-06,
+        "y": 1.86261175E-08,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": -5.364418E-07,
+        "y": 1.0,
+        "z": -1.86267926E-08
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 3,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    }
+  ],
+  "LoadedRoundsInMag": [],
+  "LoadedRoundsInChambers": [],
+  "SavedFlags": []
+}

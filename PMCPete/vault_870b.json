@@ -1,0 +1,111 @@
+{
+  "FileName": "vault_870b",
+  "Components": [
+    {
+      "Index": 0,
+      "ObjectID": "Modul870",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": -1,
+      "MountAttachedTo": -1,
+      "IsFirearm": true,
+      "IsMagazine": false,
+      "IsAttachment": false,
+      "Flags": {
+        "HammerState": "Uncocked",
+        "SafetyState": "Off"
+      }
+    },
+    {
+      "Index": 1,
+      "ObjectID": "870Pump4blk",
+      "PosOffset": {
+        "x": -1.19208757E-07,
+        "y": 0.01380012,
+        "z": 0.3635799
+      },
+      "OrientationForward": {
+        "x": 1.86264537E-09,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 1,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 2,
+      "ObjectID": "Stock870Raptor",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0442000441,
+        "z": 0.0102500552
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 4,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 3,
+      "ObjectID": "Bar870325",
+      "PosOffset": {
+        "x": 1.19208757E-07,
+        "y": 0.06415004,
+        "z": 0.226380035
+      },
+      "OrientationForward": {
+        "x": -1.25169743E-06,
+        "y": -2.984279E-13,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": -4.768371E-07,
+        "y": 1.0,
+        "z": -2.984279E-13
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 3,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    }
+  ],
+  "LoadedRoundsInMag": [],
+  "LoadedRoundsInChambers": [],
+  "SavedFlags": []
+}

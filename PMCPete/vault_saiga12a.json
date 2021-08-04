@@ -1,0 +1,153 @@
+{
+  "FileName": "vault_saiga12a",
+  "LoadedRoundsInMag": [],
+  "LoadedRoundsInChambers": [],
+  "SavedFlags": [],
+  "OverrideFireRate": false,
+  "SpeedRearward": -4.0,
+  "SpeedForward": 2.2,
+  "SpringStiffness": 150.0,
+  "OverrideFireSelectors": false,
+  "FireSelectorModes": [
+    {
+      "SelectorPosition": -103.939,
+      "ModeType": "Safe",
+      "BurstAmount": 0
+    },
+    {
+      "SelectorPosition": -81.439,
+      "ModeType": "Single",
+      "BurstAmount": 0
+    }
+  ],
+  "Components": [
+    {
+      "Index": 0,
+      "ObjectID": "Saiga12_Base",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": -1,
+      "MountAttachedTo": -1,
+      "IsFirearm": true,
+      "IsMagazine": false,
+      "IsAttachment": false,
+      "Flags": {
+        "HammerState": "Uncocked",
+        "FireSelectorState": "1"
+      }
+    },
+    {
+      "Index": 1,
+      "ObjectID": "Saiga Fore",
+      "PosOffset": {
+        "x": -1.192092E-07,
+        "y": 0.0471999533,
+        "z": 0.217900082
+      },
+      "OrientationForward": {
+        "x": -1.49011576E-08,
+        "y": 5.773157E-15,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": -7.748602E-07,
+        "y": -1.0,
+        "z": -5.773157E-15
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 4,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 2,
+      "ObjectID": "SaigaDustcover",
+      "PosOffset": {
+        "x": 1.192092E-07,
+        "y": 0.06519996,
+        "z": -0.0297000147
+      },
+      "OrientationForward": {
+        "x": -1.90734886E-06,
+        "y": 2.14576744E-06,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 2.04636351E-12,
+        "y": 1.0,
+        "z": -2.14576744E-06
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 3,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 3,
+      "ObjectID": "Saiga 12 Stock",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0283999965,
+        "z": -0.0316998661
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 2,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 4,
+      "ObjectID": "Saiga12 Pistol Grip",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.00610011676,
+        "z": 0.0121786483
+      },
+      "OrientationForward": {
+        "x": 2.13155454E-06,
+        "y": -0.000102668986,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 1.34109359E-05,
+        "y": -1.0,
+        "z": -0.000102669015
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 5,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    }
+  ]
+}

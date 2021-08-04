@@ -1,0 +1,208 @@
+{
+  "FileName": "vault_mpx",
+  "LoadedRoundsInMag": [],
+  "LoadedRoundsInChambers": [],
+  "SavedFlags": [],
+  "OverrideFireRate": false,
+  "SpeedRearward": -5.0,
+  "SpeedForward": 4.0,
+  "SpringStiffness": 190.0,
+  "OverrideFireSelectors": false,
+  "FireSelectorModes": [
+    {
+      "SelectorPosition": 90.0,
+      "ModeType": "Safe",
+      "BurstAmount": 3
+    },
+    {
+      "SelectorPosition": 0.0,
+      "ModeType": "Single",
+      "BurstAmount": 3
+    },
+    {
+      "SelectorPosition": -90.0,
+      "ModeType": "FullAuto",
+      "BurstAmount": 3
+    }
+  ],
+  "Components": [
+    {
+      "Index": 0,
+      "ObjectID": "ModularMPXDupe",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": -1,
+      "MountAttachedTo": -1,
+      "IsFirearm": true,
+      "IsMagazine": false,
+      "IsAttachment": false,
+      "Flags": {
+        "HammerState": "Uncocked",
+        "FireSelectorState": "0"
+      }
+    },
+    {
+      "Index": 1,
+      "ObjectID": "MCXGripBlk",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0007000566,
+        "z": 0.00189995463
+      },
+      "OrientationForward": {
+        "x": -1.49011612E-08,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 0,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 2,
+      "ObjectID": "MPXBarrel203",
+      "PosOffset": {
+        "x": -1.192092E-07,
+        "y": 0.05509997,
+        "z": 0.158699974
+      },
+      "OrientationForward": {
+        "x": -2.04890931E-08,
+        "y": 1.02445469E-07,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 3.841305E-16,
+        "y": 1.0,
+        "z": -1.02445469E-07
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 2,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 3,
+      "ObjectID": "MPXForegen1",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.05570001,
+        "z": 0.1646001
+      },
+      "OrientationForward": {
+        "x": 1.11758709E-08,
+        "y": 3.585592E-08,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": -7.556347E-16,
+        "y": 1.0,
+        "z": -3.585592E-08
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 3,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 4,
+      "ObjectID": "MCXStockMPX",
+      "PosOffset": {
+        "x": -1.192092E-07,
+        "y": 0.0583000258,
+        "z": -0.06369986
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 1,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 5,
+      "ObjectID": "IronFrontSight",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.09568997,
+        "z": 0.303451777
+      },
+      "OrientationForward": {
+        "x": 8.881784E-16,
+        "y": 2.98023224E-08,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 5.96046448E-08,
+        "y": 1.0,
+        "z": -2.98023224E-08
+      },
+      "ObjectAttachedTo": 3,
+      "MountAttachedTo": 1,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 6,
+      "ObjectID": "IronRearSight",
+      "PosOffset": {
+        "x": -1.192092E-07,
+        "y": 0.0954399854,
+        "z": 0.00472473353
+      },
+      "OrientationForward": {
+        "x": 5.96046448E-08,
+        "y": 1.1920929E-07,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": -3.88734929E-15,
+        "y": 1.0,
+        "z": -1.1920929E-07
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 4,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    }
+  ]
+}

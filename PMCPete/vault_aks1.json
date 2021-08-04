@@ -1,0 +1,136 @@
+{
+  "FileName": "vault_aks1",
+  "Components": [
+    {
+      "Index": 0,
+      "ObjectID": "ModulAKS",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": -1,
+      "MountAttachedTo": -1,
+      "IsFirearm": true,
+      "IsMagazine": false,
+      "IsAttachment": false,
+      "Flags": {
+        "HammerState": "Uncocked",
+        "FireSelectorState": "1"
+      }
+    },
+    {
+      "Index": 1,
+      "ObjectID": "AKSForeAKS",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0565001,
+        "z": 0.277399927
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 7.450581E-09,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 4,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 2,
+      "ObjectID": "AKStockAKS",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0273000412,
+        "z": -0.0368001051
+      },
+      "OrientationForward": {
+        "x": -5.9604492E-08,
+        "y": 4.91738274E-06,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 5.960479E-08,
+        "y": 1.0,
+        "z": -4.91738274E-06
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 1,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 3,
+      "ObjectID": "AKSDustcover2",
+      "PosOffset": {
+        "x": 0.00199997239,
+        "y": 0.06540002,
+        "z": -0.03400012
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": -6.556511E-07,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 6.556511E-07
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 6,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 4,
+      "ObjectID": "AKGrip74Bakelite",
+      "PosOffset": {
+        "x": 1.19209183E-07,
+        "y": 0.007500107,
+        "z": 0.00197863346
+      },
+      "OrientationForward": {
+        "x": -2.98023259E-08,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 5,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    }
+  ],
+  "LoadedRoundsInMag": [],
+  "LoadedRoundsInChambers": [],
+  "SavedFlags": []
+}

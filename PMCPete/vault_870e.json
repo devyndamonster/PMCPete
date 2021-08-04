@@ -1,0 +1,111 @@
+{
+  "FileName": "vault_870e",
+  "Components": [
+    {
+      "Index": 0,
+      "ObjectID": "Modul870",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": -1,
+      "MountAttachedTo": -1,
+      "IsFirearm": true,
+      "IsMagazine": false,
+      "IsAttachment": false,
+      "Flags": {
+        "HammerState": "Uncocked",
+        "SafetyState": "Off"
+      }
+    },
+    {
+      "Index": 1,
+      "ObjectID": "stock870classic1",
+      "PosOffset": {
+        "x": -1.19208231E-07,
+        "y": 0.0441999659,
+        "z": 0.0102500077
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 4,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 2,
+      "ObjectID": "870pump5",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0137999943,
+        "z": 0.3635801
+      },
+      "OrientationForward": {
+        "x": 1.39698386E-08,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 1,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 3,
+      "ObjectID": "Bar870508",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.06414995,
+        "z": 0.226379931
+      },
+      "OrientationForward": {
+        "x": -1.28149986E-06,
+        "y": 5.96042931E-08,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": -5.36441746E-07,
+        "y": 1.0,
+        "z": -5.960498E-08
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 3,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    }
+  ],
+  "LoadedRoundsInMag": [],
+  "LoadedRoundsInChambers": [],
+  "SavedFlags": []
+}

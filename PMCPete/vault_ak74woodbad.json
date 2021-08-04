@@ -1,0 +1,111 @@
+{
+  "FileName": "vault_ak74woodbad",
+  "Components": [
+    {
+      "Index": 0,
+      "ObjectID": "ModulAK74m",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": -1,
+      "MountAttachedTo": -1,
+      "IsFirearm": true,
+      "IsMagazine": false,
+      "IsAttachment": false,
+      "Flags": {
+        "HammerState": "Cocked",
+        "FireSelectorState": "1"
+      }
+    },
+    {
+      "Index": 1,
+      "ObjectID": "AKStock74Wood",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.032299988,
+        "z": -0.04310004
+      },
+      "OrientationForward": {
+        "x": 5.96046377E-08,
+        "y": 4.947185E-06,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": -1.47437591E-13,
+        "y": 1.0,
+        "z": -4.947185E-06
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 1,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 2,
+      "ObjectID": "AKGripAKM",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.00630003074,
+        "z": -0.0108213229
+      },
+      "OrientationForward": {
+        "x": 2.23517453E-08,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 6,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 3,
+      "ObjectID": "AKForeMolot",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.05599998,
+        "z": 0.302699953
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 5,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    }
+  ],
+  "LoadedRoundsInMag": [],
+  "LoadedRoundsInChambers": [],
+  "SavedFlags": []
+}

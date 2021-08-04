@@ -1,0 +1,203 @@
+{
+  "FileName": "vault_vector9",
+  "LoadedRoundsInMag": [],
+  "LoadedRoundsInChambers": [],
+  "SavedFlags": [],
+  "OverrideFireRate": false,
+  "SpeedRearward": -5.0,
+  "SpeedForward": 5.0,
+  "SpringStiffness": 200.0,
+  "OverrideFireSelectors": false,
+  "FireSelectorModes": [
+    {
+      "SelectorPosition": 0.0,
+      "ModeType": "Safe",
+      "BurstAmount": 1
+    },
+    {
+      "SelectorPosition": -30.0,
+      "ModeType": "Single",
+      "BurstAmount": 1
+    }
+  ],
+  "Components": [
+    {
+      "Index": 0,
+      "ObjectID": "FTWGunVector9mm",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": -1,
+      "MountAttachedTo": -1,
+      "IsFirearm": true,
+      "IsMagazine": false,
+      "IsAttachment": false,
+      "Flags": {
+        "HammerState": "Uncocked",
+        "FireSelectorState": "0"
+      }
+    },
+    {
+      "Index": 1,
+      "ObjectID": "FTWVectorS",
+      "PosOffset": {
+        "x": -0.0196000263,
+        "y": -0.0155000668,
+        "z": 0.288872421
+      },
+      "OrientationForward": {
+        "x": -8.956204E-08,
+        "y": -7.90253551E-08,
+        "z": -1.00000024
+      },
+      "OrientationUp": {
+        "x": -1.0,
+        "y": -3.57627869E-07,
+        "z": 8.95620644E-08
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 4,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 2,
+      "ObjectID": "FTWVectorB",
+      "PosOffset": {
+        "x": 0.001430034,
+        "y": -0.02975994,
+        "z": 0.288872659
+      },
+      "OrientationForward": {
+        "x": -1.34110451E-07,
+        "y": -8.94069458E-08,
+        "z": -1.0
+      },
+      "OrientationUp": {
+        "x": -2.38418551E-07,
+        "y": -1.0,
+        "z": 8.94069743E-08
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 1,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 3,
+      "ObjectID": "FTWVectorS",
+      "PosOffset": {
+        "x": 0.0208998825,
+        "y": -0.0147000533,
+        "z": 0.288872421
+      },
+      "OrientationForward": {
+        "x": 4.214683E-08,
+        "y": -6.322029E-08,
+        "z": -1.00000024
+      },
+      "OrientationUp": {
+        "x": 1.00000012,
+        "y": -8.34465E-07,
+        "z": 4.21468727E-08
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 5,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 4,
+      "ObjectID": "FTWVectStock",
+      "PosOffset": {
+        "x": 0.000600099331,
+        "y": 0.0284999572,
+        "z": -0.0150999986
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 6,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 5,
+      "ObjectID": "krissrear",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0458199941,
+        "z": 0.01492333
+      },
+      "OrientationForward": {
+        "x": -6.66133645E-15,
+        "y": 7.45057971E-09,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": -1.78813912E-06,
+        "y": 1.0,
+        "z": -7.45057971E-09
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 0,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 6,
+      "ObjectID": "krissfront",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0458200537,
+        "z": 0.3020591
+      },
+      "OrientationForward": {
+        "x": 2.98023259E-08,
+        "y": 2.664536E-14,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": -1.78813957E-06,
+        "y": 1.0,
+        "z": 2.664536E-14
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 0,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    }
+  ]
+}

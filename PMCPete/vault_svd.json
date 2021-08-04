@@ -1,0 +1,203 @@
+{
+  "FileName": "vault_svd",
+  "LoadedRoundsInMag": [],
+  "LoadedRoundsInChambers": [],
+  "SavedFlags": [],
+  "OverrideFireRate": false,
+  "SpeedRearward": -4.0,
+  "SpeedForward": 1.5,
+  "SpringStiffness": 100.0,
+  "OverrideFireSelectors": false,
+  "FireSelectorModes": [
+    {
+      "SelectorPosition": -86.15701,
+      "ModeType": "Safe",
+      "BurstAmount": 0
+    },
+    {
+      "SelectorPosition": -73.426,
+      "ModeType": "Single",
+      "BurstAmount": 0
+    }
+  ],
+  "Components": [
+    {
+      "Index": 0,
+      "ObjectID": "SVD-S",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": -1,
+      "MountAttachedTo": -1,
+      "IsFirearm": true,
+      "IsMagazine": false,
+      "IsAttachment": false,
+      "Flags": {
+        "HammerState": "Uncocked",
+        "FireSelectorState": "0"
+      }
+    },
+    {
+      "Index": 1,
+      "ObjectID": "SVDDustIzhmash",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.03840005,
+        "z": -0.007899988
+      },
+      "OrientationForward": {
+        "x": -1.88582248E-06,
+        "y": 2.12067971E-06,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": -1.16134373E-08,
+        "y": 1.0,
+        "z": -2.12067971E-06
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 6,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 2,
+      "ObjectID": "SVDFront",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.02869999,
+        "z": 0.7981001
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 3,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 3,
+      "ObjectID": "SVDUpperBand",
+      "PosOffset": {
+        "x": 0.000100016456,
+        "y": 0.0303699933,
+        "z": 0.272600025
+      },
+      "OrientationForward": {
+        "x": 3.15275583E-12,
+        "y": 3.096065E-12,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 1.22253372E-08,
+        "y": -1.0,
+        "z": 3.096065E-12
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 2,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 4,
+      "ObjectID": "SVDForeIzhmash",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0307999812,
+        "z": 0.272600025
+      },
+      "OrientationForward": {
+        "x": 4.51296E-13,
+        "y": 1.85831E-10,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": -7.924374E-07,
+        "y": -1.0,
+        "z": 1.85831E-10
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 0,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 5,
+      "ObjectID": "SVDGripIzhmash",
+      "PosOffset": {
+        "x": 0.0,
+        "y": -0.015599845,
+        "z": 0.01517866
+      },
+      "OrientationForward": {
+        "x": 2.102236E-06,
+        "y": -0.000102674065,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 1.3438661E-05,
+        "y": -1.0,
+        "z": -0.000102674094
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 5,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 6,
+      "ObjectID": "SVDStock",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.00499999477,
+        "z": -0.0315999538
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 4,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    }
+  ]
+}
