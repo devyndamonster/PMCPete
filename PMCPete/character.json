@@ -687,6 +687,90 @@
       }
     },
     {
+      "Type": "Equipment",
+      "IconName": "jaeger_scoped_rifles.png",
+      "TokenCost": 2,
+      "TokenCostLimited": 2,
+      "MinLevelAppears": 0,
+      "MaxLevelAppears": 2,
+      "SpawnsInSmallCase": false,
+      "SpawnsInLargeCase": false,
+      "PrimaryGroup": {
+        "Category": "Firearm",
+        "Rarity": 1.0,
+        "RequiredQuest": "",
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": 0,
+        "MaxAmmoCapacity": 1,
+        "NumMagsSpawned": 4,
+        "NumClipsSpawned": 4,
+        "NumRoundsSpawned": 9,
+        "SpawnMagAndClip": true,
+        "BespokeAttachmentChance": 0.0,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": false,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [
+          "vault_scopeakm",
+          "vault_scopemosin",
+          "vault_scopesks",
+          "vault_scopesv98",
+          "vault_scopevpo"
+        ],
+        "Eras": [],
+        "Sets": [],
+        "Sizes": [],
+        "Actions": [],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": []
+      },
+      "BackupGroup": {
+        "Category": "Uncategorized",
+        "Rarity": 0,
+        "RequiredQuest": "",
+        "ItemsToSpawn": 0,
+        "MinAmmoCapacity": 0,
+        "MaxAmmoCapacity": 0,
+        "NumMagsSpawned": 0,
+        "NumClipsSpawned": 0,
+        "NumRoundsSpawned": 0,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": false,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [],
+        "Eras": [],
+        "Sets": [],
+        "Sizes": [],
+        "Actions": [],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": []
+      }
+    },
+    {
       "Type": "Firearm",
       "IconName": "large.png",
       "TokenCost": 6,
@@ -4105,7 +4189,6 @@
       "BoxHealthChance": 0.5,
       "PossiblePanelTypes": [
         "AmmoReloader",
-        "MagPurchase",
         "Recycler",
         "MagDuplicator"
       ],
@@ -4204,8 +4287,7 @@
       "PossiblePanelTypes": [
         "AmmoReloader",
         "MagDuplicator",
-        "Recycler",
-        "MagPurchase"
+        "Recycler"
       ],
       "TakeChallenge": {
         "TurretType": "SMG",
@@ -4342,9 +4424,7 @@
       "PossiblePanelTypes": [
         "AmmoReloader",
         "MagDuplicator",
-        "Recycler",
-        "MagUpgrader",
-        "MagPurchase"
+        "Recycler"
       ],
       "TakeChallenge": {
         "TurretType": "SMG",
@@ -4482,9 +4562,7 @@
       "PossiblePanelTypes": [
         "AmmoReloader",
         "MagDuplicator",
-        "Recycler",
-        "MagUpgrader",
-        "MagPurchase"
+        "Recycler"
       ],
       "TakeChallenge": {
         "TurretType": "SMG",
@@ -4632,9 +4710,7 @@
       "PossiblePanelTypes": [
         "AmmoReloader",
         "MagDuplicator",
-        "Recycler",
-        "MagUpgrader",
-        "MagPurchase"
+        "Recycler"
       ],
       "TakeChallenge": {
         "TurretType": "SMG",

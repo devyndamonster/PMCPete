@@ -1,0 +1,72 @@
+{
+  "FileName": "vault_scopevpo",
+  "LoadedRoundsInMag": [],
+  "LoadedRoundsInChambers": [],
+  "SavedFlags": [],
+  "OverrideFireRate": false,
+  "SpeedRearward": 0.0,
+  "SpeedForward": 0.0,
+  "SpringStiffness": 0.0,
+  "OverrideFireSelectors": false,
+  "FireSelectorModes": [],
+  "Components": [
+    {
+      "Index": 0,
+      "ObjectID": "firearmVPO",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": -1,
+      "MountAttachedTo": -1,
+      "IsFirearm": true,
+      "IsMagazine": false,
+      "IsAttachment": false,
+      "Flags": {
+        "HammerState": "Uncocked",
+        "FireSelectorState": "0"
+      }
+    },
+    {
+      "Index": 1,
+      "ObjectID": "ScopeLion2-5x",
+      "PosOffset": {
+        "x": 0.000499963,
+        "y": 0.0472799465,
+        "z": 0.06352197
+      },
+      "OrientationForward": {
+        "x": -2.98023224E-08,
+        "y": -2.57571742E-14,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": -1.7285347E-06,
+        "y": 1.0,
+        "z": -2.57571742E-14
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 0,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {
+        "m_zoomSettingIndex": "0",
+        "ZeroDistanceIndex": "0",
+        "ElevationStep": "0",
+        "WindageStep": "0"
+      }
+    }
+  ]
+}

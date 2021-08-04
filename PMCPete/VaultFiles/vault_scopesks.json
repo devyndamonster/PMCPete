@@ -1,0 +1,83 @@
+{
+  "FileName": "vault_scopesks",
+  "LoadedRoundsInMag": [],
+  "LoadedRoundsInChambers": [],
+  "SavedFlags": [],
+  "OverrideFireRate": false,
+  "SpeedRearward": -4.0,
+  "SpeedForward": 3.0,
+  "SpringStiffness": 150.0,
+  "OverrideFireSelectors": false,
+  "FireSelectorModes": [
+    {
+      "SelectorPosition": -75.0,
+      "ModeType": "Safe",
+      "BurstAmount": 0
+    },
+    {
+      "SelectorPosition": 0.0,
+      "ModeType": "Single",
+      "BurstAmount": 0
+    }
+  ],
+  "Components": [
+    {
+      "Index": 0,
+      "ObjectID": "SKSClassic",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": -1,
+      "MountAttachedTo": -1,
+      "IsFirearm": true,
+      "IsMagazine": false,
+      "IsAttachment": false,
+      "Flags": {
+        "HammerState": "Cocked",
+        "FireSelectorState": "1"
+      }
+    },
+    {
+      "Index": 1,
+      "ObjectID": "ScopeMosinPU",
+      "PosOffset": {
+        "x": -0.0203199256,
+        "y": 0.0257999934,
+        "z": 0.06270002
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 1,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {
+        "m_zoomSettingIndex": "0",
+        "ZeroDistanceIndex": "0",
+        "ElevationStep": "0",
+        "WindageStep": "0"
+      }
+    }
+  ]
+}

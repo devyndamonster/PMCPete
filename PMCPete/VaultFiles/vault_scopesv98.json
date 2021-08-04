@@ -1,0 +1,72 @@
+{
+  "FileName": "vault_scopesv98",
+  "LoadedRoundsInMag": [],
+  "LoadedRoundsInChambers": [],
+  "SavedFlags": [],
+  "OverrideFireRate": false,
+  "SpeedRearward": 0.0,
+  "SpeedForward": 0.0,
+  "SpringStiffness": 0.0,
+  "OverrideFireSelectors": false,
+  "FireSelectorModes": [],
+  "Components": [
+    {
+      "Index": 0,
+      "ObjectID": "SV98",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": -1,
+      "MountAttachedTo": -1,
+      "IsFirearm": true,
+      "IsMagazine": false,
+      "IsAttachment": false,
+      "Flags": {
+        "HammerState": "Uncocked",
+        "FireSelectorState": "0"
+      }
+    },
+    {
+      "Index": 1,
+      "ObjectID": "ScopeFlamenco61-6xLPVO",
+      "PosOffset": {
+        "x": 1.19209155E-07,
+        "y": 0.09049991,
+        "z": 0.09968053
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": -1.7285347E-06,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 1,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {
+        "m_zoomSettingIndex": "3",
+        "ZeroDistanceIndex": "0",
+        "ElevationStep": "0",
+        "WindageStep": "0"
+      }
+    }
+  ]
+}
