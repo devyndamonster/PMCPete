@@ -1,4 +1,5 @@
 ﻿{
+  "$schema": "https://raw.githubusercontent.com/devyndamonster/TakeAndHoldTweaker/master/Schemas/CustomCharacterSchema.json",
   "DisplayName": "PMC Pete",
   "Description": "Welcome to Tarkov",
   "CharacterGroup": 2,
