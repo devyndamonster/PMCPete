@@ -42,9 +42,9 @@
       "Index": 1,
       "ObjectID": "m700int",
       "PosOffset": {
-        "x": -0.00139999215,
-        "y": 5.96046057E-08,
-        "z": 0.12240003
+        "x": -0.00139999064,
+        "y": 0.0,
+        "z": 0.12240009
       },
       "OrientationForward": {
         "x": 0.0,
@@ -65,11 +65,11 @@
     },
     {
       "Index": 2,
-      "ObjectID": "M700StdPoly",
+      "ObjectID": "m700stdnorail",
       "PosOffset": {
-        "x": -0.00150000863,
-        "y": 0.041365,
-        "z": 0.187320083
+        "x": -0.001500007,
+        "y": 0.0413650163,
+        "z": 0.187320173
       },
       "OrientationForward": {
         "x": 0.0,
@@ -90,11 +90,11 @@
     },
     {
       "Index": 3,
-      "ObjectID": "M70022Inch",
+      "ObjectID": "M70016Inch",
       "PosOffset": {
-        "x": -0.00130009488,
-        "y": 0.0608300753,
-        "z": 0.1955703
+        "x": -0.00129997428,
+        "y": 0.0608299226,
+        "z": 0.1955704
       },
       "OrientationForward": {
         "x": 0.0,
@@ -115,74 +115,24 @@
     },
     {
       "Index": 4,
-      "ObjectID": "m700laddersight",
+      "ObjectID": "m700ironsights",
       "PosOffset": {
-        "x": -0.00150000863,
-        "y": 0.07609994,
-        "z": 0.142199934
+        "x": -0.00149988779,
+        "y": 0.07610004,
+        "z": 0.142200008
       },
       "OrientationForward": {
-        "x": 1.49011559E-08,
-        "y": 7.450595E-09,
+        "x": 1.931788E-14,
+        "y": -2.23517418E-08,
         "z": 1.0
       },
       "OrientationUp": {
-        "x": -1.78813946E-06,
+        "x": -1.7285347E-06,
         "y": 1.0,
-        "z": -7.450568E-09
+        "z": 2.23517418E-08
       },
       "ObjectAttachedTo": 0,
       "MountAttachedTo": 1,
-      "IsFirearm": false,
-      "IsMagazine": false,
-      "IsAttachment": true,
-      "Flags": {}
-    },
-    {
-      "Index": 5,
-      "ObjectID": "PelFront",
-      "PosOffset": {
-        "x": -0.00129997567,
-        "y": 0.05890008,
-        "z": 0.4737763
-      },
-      "OrientationForward": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 1.0
-      },
-      "OrientationUp": {
-        "x": 0.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "ObjectAttachedTo": 0,
-      "MountAttachedTo": 4,
-      "IsFirearm": false,
-      "IsMagazine": false,
-      "IsAttachment": true,
-      "Flags": {}
-    },
-    {
-      "Index": 6,
-      "ObjectID": "PelRear",
-      "PosOffset": {
-        "x": -0.00150000863,
-        "y": 0.08745998,
-        "z": 0.125395983
-      },
-      "OrientationForward": {
-        "x": -5.960467E-08,
-        "y": 2.98022691E-08,
-        "z": 1.0
-      },
-      "OrientationUp": {
-        "x": -1.78813934E-06,
-        "y": 1.0,
-        "z": -2.98023757E-08
-      },
-      "ObjectAttachedTo": 4,
-      "MountAttachedTo": 0,
       "IsFirearm": false,
       "IsMagazine": false,
       "IsAttachment": true,

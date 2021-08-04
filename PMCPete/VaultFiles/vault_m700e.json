@@ -1,6 +1,11 @@
 {
   "FileName": "vault_m700e",
-  "LoadedRoundsInMag": [],
+  "LoadedRoundsInMag": [
+    "FMJ",
+    "FMJ",
+    "FMJ",
+    "FMJ"
+  ],
   "LoadedRoundsInChambers": [],
   "SavedFlags": [],
   "OverrideFireRate": false,
@@ -35,16 +40,16 @@
       "IsAttachment": false,
       "Flags": {
         "HammerState": "Uncocked",
-        "FireSelectorState": "0"
+        "FireSelectorState": "1"
       }
     },
     {
       "Index": 1,
-      "ObjectID": "m700archangel",
+      "ObjectID": "m700int",
       "PosOffset": {
-        "x": -0.00150012423,
-        "y": 0.04136495,
-        "z": 0.187320381
+        "x": -0.0013999939,
+        "y": 0.0,
+        "z": 0.122400045
       },
       "OrientationForward": {
         "x": 0.0,
@@ -56,20 +61,45 @@
         "y": 1.0,
         "z": 0.0
       },
+      "ObjectAttachedTo": -1,
+      "MountAttachedTo": -1,
+      "IsFirearm": false,
+      "IsMagazine": true,
+      "IsAttachment": false,
+      "Flags": {}
+    },
+    {
+      "Index": 2,
+      "ObjectID": "m700laddersight",
+      "PosOffset": {
+        "x": -0.00150001049,
+        "y": 0.07609999,
+        "z": 0.1422
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": -1.74532943E-06,
+        "y": 1.0,
+        "z": 0.0
+      },
       "ObjectAttachedTo": 0,
-      "MountAttachedTo": 0,
+      "MountAttachedTo": 1,
       "IsFirearm": false,
       "IsMagazine": false,
       "IsAttachment": true,
       "Flags": {}
     },
     {
-      "Index": 2,
-      "ObjectID": "M700TimberBarrel",
+      "Index": 3,
+      "ObjectID": "M70022Inch",
       "PosOffset": {
-        "x": -0.00129997253,
-        "y": 0.06083003,
-        "z": 0.19557035
+        "x": -0.0012999773,
+        "y": 0.0608299971,
+        "z": 0.19557023
       },
       "OrientationForward": {
         "x": 0.0,
@@ -89,37 +119,12 @@
       "Flags": {}
     },
     {
-      "Index": 3,
-      "ObjectID": "PelFront",
-      "PosOffset": {
-        "x": -0.00130009174,
-        "y": 0.0588999726,
-        "z": 0.7056918
-      },
-      "OrientationForward": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 1.0
-      },
-      "OrientationUp": {
-        "x": 0.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "ObjectAttachedTo": 0,
-      "MountAttachedTo": 4,
-      "IsFirearm": false,
-      "IsMagazine": false,
-      "IsAttachment": true,
-      "Flags": {}
-    },
-    {
       "Index": 4,
-      "ObjectID": "m700laddersight",
+      "ObjectID": "M700StdPoly",
       "PosOffset": {
-        "x": -0.001500005,
-        "y": 0.07610002,
-        "z": 0.142200038
+        "x": -0.00150001049,
+        "y": 0.0413650274,
+        "z": 0.187320232
       },
       "OrientationForward": {
         "x": 0.0,
@@ -127,12 +132,12 @@
         "z": 1.0
       },
       "OrientationUp": {
-        "x": -1.72853481E-06,
+        "x": 0.0,
         "y": 1.0,
         "z": 0.0
       },
       "ObjectAttachedTo": 0,
-      "MountAttachedTo": 1,
+      "MountAttachedTo": 0,
       "IsFirearm": false,
       "IsMagazine": false,
       "IsAttachment": true,
@@ -140,28 +145,33 @@
     },
     {
       "Index": 5,
-      "ObjectID": "PelRear",
+      "ObjectID": "ScopeLion2-5x",
       "PosOffset": {
-        "x": -0.001500005,
-        "y": 0.0874600038,
-        "z": 0.121541604
+        "x": -0.00150001049,
+        "y": 0.08746004,
+        "z": 0.10861659
       },
       "OrientationForward": {
-        "x": -1.24344979E-14,
-        "y": 1.49011612E-08,
+        "x": -5.960459E-08,
+        "y": -5.96046945E-08,
         "z": 1.0
       },
       "OrientationUp": {
         "x": -1.66893E-06,
         "y": 1.0,
-        "z": -1.49011612E-08
+        "z": 5.9604595E-08
       },
-      "ObjectAttachedTo": 4,
+      "ObjectAttachedTo": 2,
       "MountAttachedTo": 0,
       "IsFirearm": false,
       "IsMagazine": false,
       "IsAttachment": true,
-      "Flags": {}
+      "Flags": {
+        "m_zoomSettingIndex": "0",
+        "ZeroDistanceIndex": "0",
+        "ElevationStep": "0",
+        "WindageStep": "0"
+      }
     }
   ]
 }

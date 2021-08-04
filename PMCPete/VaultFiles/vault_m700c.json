@@ -35,16 +35,16 @@
       "IsAttachment": false,
       "Flags": {
         "HammerState": "Uncocked",
-        "FireSelectorState": "0"
+        "FireSelectorState": "1"
       }
     },
     {
       "Index": 1,
-      "ObjectID": "m700magpulstock",
+      "ObjectID": "abmount",
       "PosOffset": {
-        "x": -0.001500008,
-        "y": 0.0413649678,
-        "z": 0.187320262
+        "x": -0.00150001049,
+        "y": 0.07609999,
+        "z": 0.1422
       },
       "OrientationForward": {
         "x": 0.0,
@@ -52,12 +52,12 @@
         "z": 1.0
       },
       "OrientationUp": {
-        "x": 0.0,
+        "x": -1.74532943E-06,
         "y": 1.0,
         "z": 0.0
       },
       "ObjectAttachedTo": 0,
-      "MountAttachedTo": 0,
+      "MountAttachedTo": 1,
       "IsFirearm": false,
       "IsMagazine": false,
       "IsAttachment": true,
@@ -65,11 +65,11 @@
     },
     {
       "Index": 2,
-      "ObjectID": "m700ventedbarrel",
+      "ObjectID": "M700PortBarrel",
       "PosOffset": {
-        "x": -0.00129997521,
-        "y": 0.0608299375,
-        "z": 0.195570245
+        "x": -0.0012999773,
+        "y": 0.0608299971,
+        "z": 0.19557023
       },
       "OrientationForward": {
         "x": 0.0,
@@ -90,36 +90,11 @@
     },
     {
       "Index": 3,
-      "ObjectID": "m700laddersight",
+      "ObjectID": "Abarmbase",
       "PosOffset": {
-        "x": -0.001500008,
-        "y": 0.07609999,
-        "z": 0.142199829
-      },
-      "OrientationForward": {
-        "x": 2.980229E-08,
-        "y": 2.98023437E-08,
-        "z": 1.0
-      },
-      "OrientationUp": {
-        "x": -1.78813912E-06,
-        "y": 1.0,
-        "z": -2.98022922E-08
-      },
-      "ObjectAttachedTo": 0,
-      "MountAttachedTo": 1,
-      "IsFirearm": false,
-      "IsMagazine": false,
-      "IsAttachment": true,
-      "Flags": {}
-    },
-    {
-      "Index": 4,
-      "ObjectID": "PelFront",
-      "PosOffset": {
-        "x": -0.00129997521,
-        "y": 0.05889994,
-        "z": 0.504716039
+        "x": -0.00150001049,
+        "y": 0.0413650274,
+        "z": 0.187320232
       },
       "OrientationForward": {
         "x": 0.0,
@@ -132,7 +107,32 @@
         "z": 0.0
       },
       "ObjectAttachedTo": 0,
-      "MountAttachedTo": 4,
+      "MountAttachedTo": 0,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 4,
+      "ObjectID": "AbGuard",
+      "PosOffset": {
+        "x": -0.00150001049,
+        "y": 0.0612000227,
+        "z": 0.360720158
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 3,
+      "MountAttachedTo": 1,
       "IsFirearm": false,
       "IsMagazine": false,
       "IsAttachment": true,
@@ -140,21 +140,21 @@
     },
     {
       "Index": 5,
-      "ObjectID": "PelRear",
+      "ObjectID": "MDTGrip",
       "PosOffset": {
-        "x": -0.00150012725,
-        "y": 0.08746004,
-        "z": 0.12174473
+        "x": -0.00160002708,
+        "y": 0.000514984131,
+        "z": 0.0001001358
       },
       "OrientationForward": {
-        "x": -2.66453526E-14,
-        "y": 2.98023224E-08,
+        "x": 0.0,
+        "y": 0.0,
         "z": 1.0
       },
       "OrientationUp": {
-        "x": -1.78813934E-06,
-        "y": 1.0,
-        "z": -2.98023224E-08
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
       },
       "ObjectAttachedTo": 3,
       "MountAttachedTo": 0,
@@ -162,6 +162,86 @@
       "IsMagazine": false,
       "IsAttachment": true,
       "Flags": {}
+    },
+    {
+      "Index": 6,
+      "ObjectID": "MDTBuffer",
+      "PosOffset": {
+        "x": -0.00160002708,
+        "y": 0.0310649872,
+        "z": -0.03540969
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 3,
+      "MountAttachedTo": 2,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 7,
+      "ObjectID": "AR15StockMFTBus",
+      "PosOffset": {
+        "x": -0.00160002708,
+        "y": 0.0310649872,
+        "z": -0.215409756
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 6,
+      "MountAttachedTo": 0,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 8,
+      "ObjectID": "ScopeM2231-24x",
+      "PosOffset": {
+        "x": -0.00150001049,
+        "y": 0.09170002,
+        "z": 0.230839968
+      },
+      "OrientationForward": {
+        "x": 1.07756957E-14,
+        "y": -1.23400241E-08,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": -1.74646266E-06,
+        "y": 1.0,
+        "z": 1.23400241E-08
+      },
+      "ObjectAttachedTo": 1,
+      "MountAttachedTo": 0,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {
+        "m_zoomSettingIndex": "0",
+        "ZeroDistanceIndex": "0",
+        "ElevationStep": "0",
+        "WindageStep": "0"
+      }
     }
   ]
 }

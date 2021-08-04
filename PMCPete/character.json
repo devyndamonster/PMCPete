@@ -631,7 +631,6 @@
           "vault_adar",
           "vault_133a",
           "vault_akmmolot",
-          "vault_m700d",
           "vault_m700b"
         ],
         "Eras": [],
@@ -712,7 +711,6 @@
         "AutoPopulateGroup": false,
         "ForceSpawnAllSubPools": false,
         "IDOverride": [
-          "vault_scopeakm",
           "vault_scopemosin",
           "vault_scopesks",
           "vault_scopesv98",
@@ -734,7 +732,47 @@
         "PowerupTypes": [],
         "ThrownTypes": [],
         "ThrownDamageTypes": [],
-        "SubGroups": []
+        "SubGroups": [
+          {
+            "Category": "Firearm",
+            "Rarity": 2.0,
+            "RequiredQuest": "",
+            "ItemsToSpawn": 1,
+            "MinAmmoCapacity": 0,
+            "MaxAmmoCapacity": 11,
+            "NumMagsSpawned": 4,
+            "NumClipsSpawned": 0,
+            "NumRoundsSpawned": 9,
+            "SpawnMagAndClip": false,
+            "BespokeAttachmentChance": 0.5,
+            "IsCompatibleMagazine": false,
+            "AutoPopulateGroup": false,
+            "ForceSpawnAllSubPools": false,
+            "IDOverride": [
+              "vault_m700c",
+              "vault_m700d",
+              "vault_m700e",
+              "vault_m700f"
+            ],
+            "Eras": [],
+            "Sets": [],
+            "Sizes": [],
+            "Actions": [],
+            "Modes": [],
+            "ExcludedModes": [],
+            "FeedOptions": [],
+            "MountsAvailable": [],
+            "RoundPowers": [],
+            "Features": [],
+            "MeleeStyles": [],
+            "MeleeHandedness": [],
+            "MountTypes": [],
+            "PowerupTypes": [],
+            "ThrownTypes": [],
+            "ThrownDamageTypes": [],
+            "SubGroups": []
+          }
+        ]
       },
       "BackupGroup": {
         "Category": "Uncategorized",
