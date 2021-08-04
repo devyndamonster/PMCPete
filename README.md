@@ -1,4 +1,3 @@
-# PMCPete
 ![PMC Pete](https://i.imgur.com/RYqHM2P.png)
 
 ### Welcome To Tarkov!

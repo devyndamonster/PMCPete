@@ -14,8 +14,8 @@
   "assets": {
     "patcher": {},
     "setup": {
-      "PMCPete/*sosig*.json": "h3vr.tnhtweaker.deli:sosig",
-      "PMCPete/*vault*.json": "h3vr.tnhtweaker.deli:vault_file",
+      "PMCPete/Sosigs/*sosig*.json": "h3vr.tnhtweaker.deli:sosig",
+      "PMCPete/VaultFiles/*vault*.json": "h3vr.tnhtweaker.deli:vault_file",
       "PMCPete/": "h3vr.tnhtweaker.deli:character"
     },
     "runtime": {}
