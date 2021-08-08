@@ -4367,7 +4367,7 @@
       ],
       "TakeChallenge": {
         "TurretType": "SMG",
-        "EnemyType": "PMC_Pistol",
+        "EnemyType": "Scav_1",
         "NumTurrets": 0,
         "NumGuards": 3,
         "IFFUsed": 2
@@ -4424,7 +4424,7 @@
       ],
       "SupplyChallenge": {
         "TurretType": "SMG",
-        "EnemyType": "Scav_1",
+        "EnemyType": "PMC_Pistol",
         "NumTurrets": 0,
         "NumGuards": 3,
         "IFFUsed": 1
@@ -4504,9 +4504,9 @@
       ],
       "TakeChallenge": {
         "TurretType": "SMG",
-        "EnemyType": "PMC_Budget",
+        "EnemyType": "Scav_1",
         "NumTurrets": 0,
-        "NumGuards": 4,
+        "NumGuards": 5,
         "IFFUsed": 2
       },
       "HoldPhases": [
@@ -4562,7 +4562,7 @@
       ],
       "SupplyChallenge": {
         "TurretType": "SMG",
-        "EnemyType": "PMC_Pistol",
+        "EnemyType": "PMC_Budget",
         "NumTurrets": 0,
         "NumGuards": 4,
         "IFFUsed": 2
@@ -4727,9 +4727,9 @@
       ],
       "SupplyChallenge": {
         "TurretType": "SMG",
-        "EnemyType": "Scav_1",
+        "EnemyType": "PMC_Geared",
         "NumTurrets": 0,
-        "NumGuards": 6,
+        "NumGuards": 5,
         "IFFUsed": 1
       },
       "Patrols": [
@@ -4790,7 +4790,7 @@
       ],
       "TakeChallenge": {
         "TurretType": "SMG",
-        "EnemyType": "PMC_Geared",
+        "EnemyType": "Scav_1",
         "NumTurrets": 0,
         "NumGuards": 8,
         "IFFUsed": 2
@@ -4882,9 +4882,9 @@
       ],
       "SupplyChallenge": {
         "TurretType": "SMG",
-        "EnemyType": "PMC_Budget",
+        "EnemyType": "PMC_Geared",
         "NumTurrets": 0,
-        "NumGuards": 8,
+        "NumGuards": 7,
         "IFFUsed": 2
       },
       "Patrols": [

@@ -258,7 +258,13 @@
     "IDOverride": [
       "PowerUpMeat_Health",
       "vault_ak101black",
-      "MP5A2"
+      "MP5A2",
+      "SuppressorMk22Mod0",
+      "MagazineAK74N",
+      "PinnedGrenadeF1Russia",
+      "PinnedGrenadeRG5",
+      "ReflexRedDotStandard",
+      "ReflexLCO"
     ],
     "Eras": [],
     "Sets": [],

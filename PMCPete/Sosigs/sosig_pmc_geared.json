@@ -249,7 +249,7 @@
   ],
   "SecondaryChance": 1.0,
   "TertiaryChance": 1.0,
-  "DroppedLootChance": 0.1,
+  "DroppedLootChance": 0.15,
   "DroppedObjectPool": {
     "Category": "Uncategorized",
     "Rarity": 1.0,

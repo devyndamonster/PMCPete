@@ -256,7 +256,11 @@
     "ForceSpawnAllSubPools": true,
     "IDOverride": [
       "vault_svd",
-      "ModulAK105"
+      "ModulAK105",
+      "MagazineAK74N",
+      "MagazineAK74_20rnd",
+      "MagnifierPSO1",
+      "ReflexHolosightLong"
     ],
     "Eras": [],
     "Sets": [],
@@ -291,9 +295,7 @@
         "AutoPopulateGroup": false,
         "ForceSpawnAllSubPools": false,
         "IDOverride": [
-          "MagnifierPSO1",
-          "ReflexHolosightLong",
-          "MagazineAK74N"
+          "Improvised_ClimbingAxe"
         ],
         "Eras": [],
         "Sets": [],

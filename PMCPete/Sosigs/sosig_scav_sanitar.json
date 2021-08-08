@@ -253,7 +253,13 @@
     "ForceSpawnAllSubPools": true,
     "IDOverride": [
       "SKSModern",
-      "VSSVintorez"
+      "VSSVintorez",
+      "PinnedGrenadeF1Russia",
+      "PinnedGrenadeRG5",
+      "PP91KEDR",
+      "mchnpistol_APS",
+      "RailAdapterRussianToPicatinny",
+      "SuppressorAim5"
     ],
     "Eras": [],
     "Sets": [],
