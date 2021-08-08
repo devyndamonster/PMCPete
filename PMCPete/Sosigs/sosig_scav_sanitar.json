@@ -250,12 +250,10 @@
     "BespokeAttachmentChance": 0.0,
     "IsCompatibleMagazine": false,
     "AutoPopulateGroup": false,
-    "ForceSpawnAllSubPools": false,
+    "ForceSpawnAllSubPools": true,
     "IDOverride": [
       "SKSModern",
-      "VSSVintorez",
-      "PowerUpMeat_Health",
-      "PowerUpMeat_Regen"
+      "VSSVintorez"
     ],
     "Eras": [],
     "Sets": [],
@@ -273,6 +271,44 @@
     "PowerupTypes": [],
     "ThrownTypes": [],
     "ThrownDamageTypes": [],
-    "SubGroups": null
+    "SubGroups": [
+      {
+        "Category": "Firearm",
+        "Rarity": 1.0,
+        "RequiredQuest": "",
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": 0,
+        "MaxAmmoCapacity": 0,
+        "NumMagsSpawned": 0,
+        "NumClipsSpawned": 0,
+        "NumRoundsSpawned": 0,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0.5,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": false,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [
+          "PowerUpMeat_Health",
+          "PowerUpMeat_Regen"
+        ],
+        "Eras": [],
+        "Sets": [],
+        "Sizes": [],
+        "Actions": [],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": []
+      }
+    ]
   }
 }

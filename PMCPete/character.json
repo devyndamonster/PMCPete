@@ -631,7 +631,9 @@
           "vault_adar",
           "vault_133a",
           "vault_akmmolot",
-          "vault_m700b"
+          "vault_m700b",
+          "Vepr Hunter (Wood)",
+          "Vepr Hunter"
         ],
         "Eras": [],
         "Sets": [],
@@ -1323,17 +1325,13 @@
         "AutoPopulateGroup": false,
         "ForceSpawnAllSubPools": false,
         "IDOverride": [
-          "MP5A4",
-          "MP5KN",
           "Mp7a1",
           "Mp9",
           "P90",
           "PPSh41",
           "vault_pp19",
-          "vault_saiga9",
           "vault_mpx",
           "UMP45",
-          "MP5SD2",
           "vault_vector9",
           "vault_vector45",
           "vault_stm"
@@ -1354,7 +1352,46 @@
         "PowerupTypes": [],
         "ThrownTypes": [],
         "ThrownDamageTypes": [],
-        "SubGroups": []
+        "SubGroups": [
+          {
+            "Category": "Firearm",
+            "Rarity": 1.0,
+            "RequiredQuest": "",
+            "ItemsToSpawn": 1,
+            "MinAmmoCapacity": -1,
+            "MaxAmmoCapacity": 60,
+            "NumMagsSpawned": 2,
+            "NumClipsSpawned": 2,
+            "NumRoundsSpawned": 9,
+            "SpawnMagAndClip": false,
+            "BespokeAttachmentChance": 0.5,
+            "IsCompatibleMagazine": false,
+            "AutoPopulateGroup": false,
+            "ForceSpawnAllSubPools": false,
+            "IDOverride": [
+              "MP5A4",
+              "MP5KN",
+              "MP5SD2"
+            ],
+            "Eras": [],
+            "Sets": [],
+            "Sizes": [],
+            "Actions": [],
+            "Modes": [],
+            "ExcludedModes": [],
+            "FeedOptions": [],
+            "MountsAvailable": [],
+            "RoundPowers": [],
+            "Features": [],
+            "MeleeStyles": [],
+            "MeleeHandedness": [],
+            "MountTypes": [],
+            "PowerupTypes": [],
+            "ThrownTypes": [],
+            "ThrownDamageTypes": [],
+            "SubGroups": []
+          }
+        ]
       },
       "BackupGroup": {
         "Category": "Firearm",

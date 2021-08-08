@@ -253,13 +253,10 @@
     "BespokeAttachmentChance": -1.0,
     "IsCompatibleMagazine": false,
     "AutoPopulateGroup": false,
-    "ForceSpawnAllSubPools": false,
+    "ForceSpawnAllSubPools": true,
     "IDOverride": [
-      "MagnifierPSO1",
-      "ReflexHolosightLong",
       "vault_svd",
-      "ModulAK105",
-      "MagazineAK74N"
+      "ModulAK105"
     ],
     "Eras": [],
     "Sets": [],
@@ -277,6 +274,45 @@
     "PowerupTypes": [],
     "ThrownTypes": [],
     "ThrownDamageTypes": [],
-    "SubGroups": null
+    "SubGroups": [
+      {
+        "Category": "Firearm",
+        "Rarity": 1.0,
+        "RequiredQuest": "",
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": 0,
+        "MaxAmmoCapacity": 11,
+        "NumMagsSpawned": 0,
+        "NumClipsSpawned": 0,
+        "NumRoundsSpawned": 0,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0.5,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": false,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [
+          "MagnifierPSO1",
+          "ReflexHolosightLong",
+          "MagazineAK74N"
+        ],
+        "Eras": [],
+        "Sets": [],
+        "Sizes": [],
+        "Actions": [],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": []
+      }
+    ]
   }
 }

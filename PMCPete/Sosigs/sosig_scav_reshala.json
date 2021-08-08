@@ -254,7 +254,7 @@
     "BespokeAttachmentChance": -1.0,
     "IsCompatibleMagazine": false,
     "AutoPopulateGroup": false,
-    "ForceSpawnAllSubPools": false,
+    "ForceSpawnAllSubPools": true,
     "IDOverride": [
       "PowerUpMeat_Health",
       "vault_ak101black",
@@ -276,6 +276,43 @@
     "PowerupTypes": [],
     "ThrownTypes": [],
     "ThrownDamageTypes": [],
-    "SubGroups": null
+    "SubGroups": [
+      {
+        "Category": "Firearm",
+        "Rarity": 1.0,
+        "RequiredQuest": "",
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": 0,
+        "MaxAmmoCapacity": 11,
+        "NumMagsSpawned": 0,
+        "NumClipsSpawned": 0,
+        "NumRoundsSpawned": 0,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0.5,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": false,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [
+          "GoldenTT"
+        ],
+        "Eras": [],
+        "Sets": [],
+        "Sizes": [],
+        "Actions": [],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": []
+      }
+    ]
   }
 }
