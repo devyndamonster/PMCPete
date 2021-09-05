@@ -1,9 +1,24 @@
 {
-  "FileName": "vault_akmwood",
+  "FileName": "vault_tt33c",
+  "LoadedRoundsInMag": [],
+  "LoadedRoundsInChambers": [],
+  "SavedFlags": [],
+  "OverrideFireRate": false,
+  "SpeedRearward": -4.0,
+  "SpeedForward": 1.8,
+  "SpringStiffness": 200.0,
+  "OverrideFireSelectors": false,
+  "FireSelectorModes": [
+    {
+      "SelectorPosition": 0.0,
+      "ModeType": "Single",
+      "BurstAmount": 3
+    }
+  ],
   "Components": [
     {
       "Index": 0,
-      "ObjectID": "ModulAKM",
+      "ObjectID": "TTframedupe",
       "PosOffset": {
         "x": 0.0,
         "y": 0.0,
@@ -25,30 +40,29 @@
       "IsMagazine": false,
       "IsAttachment": false,
       "Flags": {
-        "HammerState": "Cocked",
-        "FireSelectorState": "1"
+        "HammerState": "Uncocked"
       }
     },
     {
       "Index": 1,
-      "ObjectID": "AKDustcover74",
+      "ObjectID": "pmlaserdupe",
       "PosOffset": {
-        "x": 0.00199997262,
-        "y": 0.0643999651,
-        "z": -0.0459999554
+        "x": 0.0,
+        "y": -0.0236999989,
+        "z": -9.98973846E-05
       },
       "OrientationForward": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 1.0
+        "x": 2.10734274E-08,
+        "y": 1.0,
+        "z": 1.78813934E-07
       },
       "OrientationUp": {
-        "x": 0.0,
-        "y": 1.0,
-        "z": 0.0
+        "x": -2.10734221E-08,
+        "y": 1.78813934E-07,
+        "z": -1.0
       },
       "ObjectAttachedTo": 0,
-      "MountAttachedTo": 7,
+      "MountAttachedTo": 2,
       "IsFirearm": false,
       "IsMagazine": false,
       "IsAttachment": true,
@@ -56,21 +70,21 @@
     },
     {
       "Index": 2,
-      "ObjectID": "AKStock74Wood",
+      "ObjectID": "ttbarduoe",
       "PosOffset": {
         "x": 0.0,
-        "y": 0.03230003,
-        "z": -0.0431000739
+        "y": 0.03922999,
+        "z": 0.155799866
       },
       "OrientationForward": {
-        "x": 1.47437618E-13,
-        "y": 4.94718552E-06,
+        "x": -1.847744E-06,
+        "y": 0.0,
         "z": 1.0
       },
       "OrientationUp": {
-        "x": 5.96046448E-08,
+        "x": 0.0,
         "y": 1.0,
-        "z": -4.94718552E-06
+        "z": 0.0
       },
       "ObjectAttachedTo": 0,
       "MountAttachedTo": 1,
@@ -81,56 +95,28 @@
     },
     {
       "Index": 3,
-      "ObjectID": "AKGripAKM",
+      "ObjectID": "ubraildupe",
       "PosOffset": {
         "x": 0.0,
-        "y": 0.006299968,
-        "z": -0.0108213313
-      },
-      "OrientationForward": {
-        "x": -7.45058149E-09,
-        "y": 0.0,
-        "z": 1.0
-      },
-      "OrientationUp": {
-        "x": 0.0,
-        "y": -1.0,
-        "z": 0.0
-      },
-      "ObjectAttachedTo": 0,
-      "MountAttachedTo": 6,
-      "IsFirearm": false,
-      "IsMagazine": false,
-      "IsAttachment": true,
-      "Flags": {}
-    },
-    {
-      "Index": 4,
-      "ObjectID": "AKFore74Wood",
-      "PosOffset": {
-        "x": 0.0,
-        "y": 0.05600001,
-        "z": 0.3029999
+        "y": -0.00110000372,
+        "z": 0.09850001
       },
       "OrientationForward": {
         "x": 0.0,
-        "y": 0.0,
+        "y": 1.49011576E-08,
         "z": 1.0
       },
       "OrientationUp": {
         "x": 0.0,
         "y": 1.0,
-        "z": 0.0
+        "z": -1.49011576E-08
       },
       "ObjectAttachedTo": 0,
-      "MountAttachedTo": 5,
+      "MountAttachedTo": 3,
       "IsFirearm": false,
       "IsMagazine": false,
       "IsAttachment": true,
       "Flags": {}
     }
-  ],
-  "LoadedRoundsInMag": [],
-  "LoadedRoundsInChambers": [],
-  "SavedFlags": []
+  ]
 }

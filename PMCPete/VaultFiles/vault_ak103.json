@@ -1,9 +1,24 @@
 {
-  "FileName": "vault_m4skeleton",
+  "FileName": "vault_ak103",
+  "LoadedRoundsInMag": [],
+  "LoadedRoundsInChambers": [],
+  "SavedFlags": [],
+  "OverrideFireRate": false,
+  "SpeedRearward": -4.0,
+  "SpeedForward": 2.2,
+  "SpringStiffness": 150.0,
+  "OverrideFireSelectors": false,
+  "FireSelectorModes": [
+    {
+      "SelectorPosition": 0.0,
+      "ModeType": "Safe",
+      "BurstAmount": 0
+    }
+  ],
   "Components": [
     {
       "Index": 0,
-      "ObjectID": "PisLvrmodulARSkeleton",
+      "ObjectID": "ModulAK103Dupe",
       "PosOffset": {
         "x": 0.0,
         "y": 0.0,
@@ -25,30 +40,29 @@
       "IsMagazine": false,
       "IsAttachment": false,
       "Flags": {
-        "HammerState": "Uncocked",
-        "FireSelectorState": "2"
+        "HammerState": "Uncocked"
       }
     },
     {
       "Index": 1,
-      "ObjectID": "AllGrips",
+      "ObjectID": "AKStock74m",
       "PosOffset": {
-        "x": 6.61608938E-05,
-        "y": 0.00187593629,
-        "z": 0.00305389054
+        "x": 0.0,
+        "y": 0.0273,
+        "z": -0.0367999077
       },
       "OrientationForward": {
-        "x": 2.98023366E-08,
-        "y": -1.49011345E-08,
+        "x": -5.960465E-08,
+        "y": 2.08616257E-07,
         "z": 1.0
       },
       "OrientationUp": {
-        "x": 1.78813934E-06,
-        "y": -1.0,
-        "z": -1.49011878E-08
+        "x": 6.21724978E-15,
+        "y": 1.0,
+        "z": -2.08616257E-07
       },
       "ObjectAttachedTo": 0,
-      "MountAttachedTo": 2,
+      "MountAttachedTo": 7,
       "IsFirearm": false,
       "IsMagazine": false,
       "IsAttachment": true,
@@ -56,24 +70,24 @@
     },
     {
       "Index": 2,
-      "ObjectID": "AttStockStandardM4",
+      "ObjectID": "AKDustcover74m",
       "PosOffset": {
-        "x": 1.19208813E-07,
-        "y": 0.0560999326,
-        "z": -0.04130012
+        "x": 0.00199997425,
+        "y": 0.0653999448,
+        "z": -0.03399992
       },
       "OrientationForward": {
         "x": 0.0,
-        "y": 0.0,
+        "y": -6.854534E-07,
         "z": 1.0
       },
       "OrientationUp": {
         "x": 0.0,
         "y": 1.0,
-        "z": 0.0
+        "z": 6.854534E-07
       },
       "ObjectAttachedTo": 0,
-      "MountAttachedTo": 3,
+      "MountAttachedTo": 6,
       "IsFirearm": false,
       "IsMagazine": false,
       "IsAttachment": true,
@@ -81,11 +95,11 @@
     },
     {
       "Index": 3,
-      "ObjectID": "AttSuppressorbarrel260mm",
+      "ObjectID": "AKForePlastic",
       "PosOffset": {
         "x": 0.0,
-        "y": 0.0560999922,
-        "z": 0.169400215
+        "y": 0.056499958,
+        "z": 0.314800262
       },
       "OrientationForward": {
         "x": 0.0,
@@ -98,7 +112,7 @@
         "z": 0.0
       },
       "ObjectAttachedTo": 0,
-      "MountAttachedTo": 0,
+      "MountAttachedTo": 4,
       "IsFirearm": false,
       "IsMagazine": false,
       "IsAttachment": true,
@@ -106,31 +120,28 @@
     },
     {
       "Index": 4,
-      "ObjectID": "MFore",
+      "ObjectID": "AKGrip74Polymer",
       "PosOffset": {
         "x": 0.0,
-        "y": 0.05519871,
-        "z": 0.174299926
+        "y": 0.005699992,
+        "z": 0.00359988213
       },
       "OrientationForward": {
-        "x": -2.44109233E-05,
-        "y": -0.000611043768,
-        "z": 0.9999998
+        "x": 7.45057971E-09,
+        "y": 0.0,
+        "z": 1.0
       },
       "OrientationUp": {
-        "x": -0.00235629664,
-        "y": 0.999997,
-        "z": 0.0006109845
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
       },
       "ObjectAttachedTo": 0,
-      "MountAttachedTo": 4,
+      "MountAttachedTo": 5,
       "IsFirearm": false,
       "IsMagazine": false,
       "IsAttachment": true,
       "Flags": {}
     }
-  ],
-  "LoadedRoundsInMag": [],
-  "LoadedRoundsInChambers": [],
-  "SavedFlags": []
+  ]
 }

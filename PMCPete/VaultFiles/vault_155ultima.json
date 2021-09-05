@@ -1,29 +1,18 @@
 {
-  "FileName": "vault_scopeakm",
+  "FileName": "vault_155ultima",
   "LoadedRoundsInMag": [],
   "LoadedRoundsInChambers": [],
   "SavedFlags": [],
   "OverrideFireRate": false,
-  "SpeedRearward": -4.0,
-  "SpeedForward": 2.2,
-  "SpringStiffness": 150.0,
-  "OverrideFireSelectors": true,
-  "FireSelectorModes": [
-    {
-      "SelectorPosition": -105.0,
-      "ModeType": "Safe",
-      "BurstAmount": 0
-    },
-    {
-      "SelectorPosition": -84.0,
-      "ModeType": "Single",
-      "BurstAmount": 3
-    }
-  ],
+  "SpeedRearward": 0.0,
+  "SpeedForward": 0.0,
+  "SpringStiffness": 0.0,
+  "OverrideFireSelectors": false,
+  "FireSelectorModes": [],
   "Components": [
     {
       "Index": 0,
-      "ObjectID": "ModulAKMDupe",
+      "ObjectID": "Modul155Dupe",
       "PosOffset": {
         "x": 0.0,
         "y": 0.0,
@@ -46,116 +35,16 @@
       "IsAttachment": false,
       "Flags": {
         "HammerState": "Uncocked",
-        "FireSelectorState": "0"
+        "SafetyState": "On"
       }
     },
     {
       "Index": 1,
-      "ObjectID": "AKGripAKM",
+      "ObjectID": "MP155Barrel510",
       "PosOffset": {
         "x": 0.0,
-        "y": 0.00629996974,
-        "z": -0.0108213136
-      },
-      "OrientationForward": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 1.0
-      },
-      "OrientationUp": {
-        "x": 0.0,
-        "y": -1.0,
-        "z": 0.0
-      },
-      "ObjectAttachedTo": 0,
-      "MountAttachedTo": 6,
-      "IsFirearm": false,
-      "IsMagazine": false,
-      "IsAttachment": true,
-      "Flags": {}
-    },
-    {
-      "Index": 2,
-      "ObjectID": "AKStockMolot",
-      "PosOffset": {
-        "x": 0.0,
-        "y": 0.0275000222,
-        "z": -0.0487002023
-      },
-      "OrientationForward": {
-        "x": -1.01980013E-11,
-        "y": 4.90993261E-06,
-        "z": 1.0
-      },
-      "OrientationUp": {
-        "x": 9.02806649E-11,
-        "y": 1.0,
-        "z": -4.90993261E-06
-      },
-      "ObjectAttachedTo": 0,
-      "MountAttachedTo": 1,
-      "IsFirearm": false,
-      "IsMagazine": false,
-      "IsAttachment": true,
-      "Flags": {}
-    },
-    {
-      "Index": 3,
-      "ObjectID": "AKForeMolot",
-      "PosOffset": {
-        "x": 0.0,
-        "y": 0.0559999719,
-        "z": 0.302999884
-      },
-      "OrientationForward": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 1.0
-      },
-      "OrientationUp": {
-        "x": 0.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "ObjectAttachedTo": 0,
-      "MountAttachedTo": 5,
-      "IsFirearm": false,
-      "IsMagazine": false,
-      "IsAttachment": true,
-      "Flags": {}
-    },
-    {
-      "Index": 4,
-      "ObjectID": "AKDustcover74",
-      "PosOffset": {
-        "x": 0.00199997076,
-        "y": 0.06439999,
-        "z": -0.04600012
-      },
-      "OrientationForward": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 1.0
-      },
-      "OrientationUp": {
-        "x": 0.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "ObjectAttachedTo": 0,
-      "MountAttachedTo": 7,
-      "IsFirearm": false,
-      "IsMagazine": false,
-      "IsAttachment": true,
-      "Flags": {}
-    },
-    {
-      "Index": 5,
-      "ObjectID": "MagnifierPSO1",
-      "PosOffset": {
-        "x": -0.0297001079,
-        "y": 0.03439997,
-        "z": 0.0206000246
+        "y": 0.054099977,
+        "z": 0.22149992
       },
       "OrientationForward": {
         "x": 0.0,
@@ -172,12 +61,157 @@
       "IsFirearm": false,
       "IsMagazine": false,
       "IsAttachment": true,
-      "Flags": {
-        "m_zoomSettingIndex": "0",
-        "ZeroDistanceIndex": "0",
-        "ElevationStep": "0",
-        "WindageStep": "0"
-      }
+      "Flags": {}
+    },
+    {
+      "Index": 2,
+      "ObjectID": "MP155ForeUltima",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.006300032,
+        "z": 0.3650999
+      },
+      "OrientationForward": {
+        "x": -7.45058149E-09,
+        "y": 2.77555822E-17,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": -7.45058149E-09,
+        "y": -1.0,
+        "z": -2.77555822E-17
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 2,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 3,
+      "ObjectID": "MP155UltimaTop",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0746100545,
+        "z": 0.1408
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 0,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 4,
+      "ObjectID": "MP155StockUltimaGrip",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.04413998,
+        "z": 0.0171999931
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.04187565,
+        "z": 0.999122858
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 0.999122858,
+        "z": -0.04187565
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 5,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 5,
+      "ObjectID": "MP155StockUltima",
+      "PosOffset": {
+        "x": 0.0,
+        "y": -0.03241819,
+        "z": -0.0995965
+      },
+      "OrientationForward": {
+        "x": -3.90083E-10,
+        "y": 0.0418756641,
+        "z": 0.999122858
+      },
+      "OrientationUp": {
+        "x": -1.86223641E-08,
+        "y": 0.999122858,
+        "z": -0.0418756641
+      },
+      "ObjectAttachedTo": 4,
+      "MountAttachedTo": 0,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 6,
+      "ObjectID": "MP155Mag6",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0231998563,
+        "z": 0.5525
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 1,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 7,
+      "ObjectID": "MP155UltimaBreacher",
+      "PosOffset": {
+        "x": 1.1920929E-07,
+        "y": 0.04291004,
+        "z": 0.6389005
+      },
+      "OrientationForward": {
+        "x": 1.49011612E-08,
+        "y": 1.49011612E-08,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 1.110223E-16,
+        "y": -1.0,
+        "z": 1.49011612E-08
+      },
+      "ObjectAttachedTo": 3,
+      "MountAttachedTo": 5,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
     }
   ]
 }

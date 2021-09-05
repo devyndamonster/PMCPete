@@ -630,7 +630,6 @@
           "vault_saiga9",
           "vault_adar",
           "vault_133a",
-          "vault_akmmolot",
           "vault_m700b",
           "Vepr Hunter (Wood)",
           "Vepr Hunter"
@@ -1115,7 +1114,8 @@
               "vault_153a",
               "vault_153b",
               "vault_153c",
-              "vault_153d"
+              "vault_155a",
+              "vault_155ultima"
             ],
             "Eras": [],
             "Sets": [],
@@ -1245,7 +1245,8 @@
           "P226",
           "mchnpistol_APS",
           "SR1MP",
-          "PL14"
+          "PL14",
+          "vault_tt33b"
         ],
         "Eras": [],
         "Sets": [],
@@ -1532,18 +1533,15 @@
             "AutoPopulateGroup": false,
             "ForceSpawnAllSubPools": false,
             "IDOverride": [
-              "potatoesAKMunderfolder",
-              "vault_ak74black",
-              "vault_ak74wood",
-              "vault_ak74woodbad",
-              "vault_ak101black",
-              "vault_ak102black",
-              "vault_ak103black",
-              "vault_ak104black",
-              "vault_ak105plum",
-              "vault_akmmolot",
-              "vault_akmsidefolder",
-              "vault_akmwood"
+              "vault_ak74m",
+              "vault_ak74n",
+              "vault_ak101",
+              "vault_ak102",
+              "vault_ak103",
+              "vault_ak104",
+              "vault_ak105",
+              "vault_akm",
+              "vault_akmsn"
             ],
             "Eras": [],
             "Sets": [],
@@ -2445,7 +2443,8 @@
               "M1911Modern",
               "MP5KN",
               "SR1MP",
-              "PL14"
+              "PL14",
+              "vault_tt33a"
             ],
             "Eras": [],
             "Sets": [],

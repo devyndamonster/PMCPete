@@ -1,17 +1,16 @@
 {
-  "FileName": "vault_akmmolot",
+  "FileName": "vault_tt33b",
   "LoadedRoundsInMag": [],
   "LoadedRoundsInChambers": [],
   "SavedFlags": [],
-  "OverrideFireSelectors": true,
+  "OverrideFireRate": false,
+  "SpeedRearward": -4.0,
+  "SpeedForward": 1.8,
+  "SpringStiffness": 200.0,
+  "OverrideFireSelectors": false,
   "FireSelectorModes": [
     {
-      "SelectorPosition": -105.0,
-      "ModeType": "Safe",
-      "BurstAmount": 0
-    },
-    {
-      "SelectorPosition": -84.0,
+      "SelectorPosition": 0.0,
       "ModeType": "Single",
       "BurstAmount": 3
     }
@@ -19,7 +18,7 @@
   "Components": [
     {
       "Index": 0,
-      "ObjectID": "ModulAKM",
+      "ObjectID": "TTframedupe",
       "PosOffset": {
         "x": 0.0,
         "y": 0.0,
@@ -41,30 +40,29 @@
       "IsMagazine": false,
       "IsAttachment": false,
       "Flags": {
-        "HammerState": "Uncocked",
-        "FireSelectorState": "1"
+        "HammerState": "Uncocked"
       }
     },
     {
       "Index": 1,
-      "ObjectID": "AKDustcover74",
+      "ObjectID": "razordupe",
       "PosOffset": {
-        "x": 0.0019999668,
-        "y": 0.06439996,
-        "z": -0.04600005
+        "x": 0.0,
+        "y": -0.02369994,
+        "z": -0.0001001358
       },
       "OrientationForward": {
         "x": 0.0,
-        "y": 0.0,
-        "z": 1.0
+        "y": 1.00000012,
+        "z": 5.96046448E-08
       },
       "OrientationUp": {
         "x": 0.0,
-        "y": 1.0,
-        "z": 0.0
+        "y": 5.96046448E-08,
+        "z": -1.00000012
       },
       "ObjectAttachedTo": 0,
-      "MountAttachedTo": 7,
+      "MountAttachedTo": 2,
       "IsFirearm": false,
       "IsMagazine": false,
       "IsAttachment": true,
@@ -72,11 +70,11 @@
     },
     {
       "Index": 2,
-      "ObjectID": "AKForeMolot",
+      "ObjectID": "DLPLdupe",
       "PosOffset": {
         "x": 0.0,
-        "y": 0.05600001,
-        "z": 0.302999884
+        "y": -0.00110000372,
+        "z": 0.09850001
       },
       "OrientationForward": {
         "x": 0.0,
@@ -84,12 +82,12 @@
         "z": 1.0
       },
       "OrientationUp": {
-        "x": 0.0,
+        "x": 5.960463E-08,
         "y": 1.0,
         "z": 0.0
       },
       "ObjectAttachedTo": 0,
-      "MountAttachedTo": 5,
+      "MountAttachedTo": 3,
       "IsFirearm": false,
       "IsMagazine": false,
       "IsAttachment": true,
@@ -97,49 +95,24 @@
     },
     {
       "Index": 3,
-      "ObjectID": "AKStockMolot",
+      "ObjectID": "ttcompdupe",
       "PosOffset": {
-        "x": 1.19208842E-07,
-        "y": 0.0322999358,
-        "z": -0.0430999361
+        "x": 0.0,
+        "y": 0.03922999,
+        "z": 0.1558001
       },
       "OrientationForward": {
-        "x": 5.96044956E-08,
-        "y": 4.94718552E-06,
+        "x": -1.8328426E-06,
+        "y": 7.450525E-09,
         "z": 1.0
       },
       "OrientationUp": {
-        "x": -5.9604794E-08,
+        "x": -5.960463E-08,
         "y": 1.0,
-        "z": -4.94718552E-06
+        "z": -7.450634E-09
       },
       "ObjectAttachedTo": 0,
       "MountAttachedTo": 1,
-      "IsFirearm": false,
-      "IsMagazine": false,
-      "IsAttachment": true,
-      "Flags": {}
-    },
-    {
-      "Index": 4,
-      "ObjectID": "AKGripAKM",
-      "PosOffset": {
-        "x": 0.0,
-        "y": 0.0063000205,
-        "z": -0.0108215353
-      },
-      "OrientationForward": {
-        "x": 1.4901163E-08,
-        "y": 0.0,
-        "z": 1.0
-      },
-      "OrientationUp": {
-        "x": 0.0,
-        "y": -1.0,
-        "z": 0.0
-      },
-      "ObjectAttachedTo": 0,
-      "MountAttachedTo": 6,
       "IsFirearm": false,
       "IsMagazine": false,
       "IsAttachment": true,

@@ -1,9 +1,18 @@
 {
   "FileName": "vault_153c",
+  "LoadedRoundsInMag": [],
+  "LoadedRoundsInChambers": [],
+  "SavedFlags": [],
+  "OverrideFireRate": false,
+  "SpeedRearward": 0.0,
+  "SpeedForward": 0.0,
+  "SpringStiffness": 0.0,
+  "OverrideFireSelectors": false,
+  "FireSelectorModes": [],
   "Components": [
     {
       "Index": 0,
-      "ObjectID": "ShotModul153",
+      "ObjectID": "Modul153Dupe",
       "PosOffset": {
         "x": 0.0,
         "y": 0.0,
@@ -25,17 +34,42 @@
       "IsMagazine": false,
       "IsAttachment": false,
       "Flags": {
-        "HammerState": "Cocked",
-        "SafetyState": "Off"
+        "HammerState": "Uncocked",
+        "SafetyState": "On"
       }
     },
     {
       "Index": 1,
-      "ObjectID": "MP133StockPis",
+      "ObjectID": "153ForeP",
       "PosOffset": {
         "x": 0.0,
-        "y": 0.0442000441,
-        "z": 0.0165998582
+        "y": 0.009999931,
+        "z": 0.371400118
+      },
+      "OrientationForward": {
+        "x": 2.98023153E-08,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 4,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 2,
+      "ObjectID": "Stock133W",
+      "PosOffset": {
+        "x": -1.1920929E-07,
+        "y": 0.0441999435,
+        "z": 0.016600132
       },
       "OrientationForward": {
         "x": 0.0,
@@ -55,12 +89,12 @@
       "Flags": {}
     },
     {
-      "Index": 2,
-      "ObjectID": "Barrel153610Rib",
+      "Index": 3,
+      "ObjectID": "Barrel153750Rib",
       "PosOffset": {
         "x": 0.0,
-        "y": 0.055000104,
-        "z": 0.224100128
+        "y": 0.0550000072,
+        "z": 0.224100113
       },
       "OrientationForward": {
         "x": 0.0,
@@ -79,8 +113,5 @@
       "IsAttachment": true,
       "Flags": {}
     }
-  ],
-  "LoadedRoundsInMag": [],
-  "LoadedRoundsInChambers": [],
-  "SavedFlags": []
+  ]
 }

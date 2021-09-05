@@ -1,9 +1,18 @@
 {
   "FileName": "vault_153b",
+  "LoadedRoundsInMag": [],
+  "LoadedRoundsInChambers": [],
+  "SavedFlags": [],
+  "OverrideFireRate": false,
+  "SpeedRearward": 0.0,
+  "SpeedForward": 0.0,
+  "SpringStiffness": 0.0,
+  "OverrideFireSelectors": false,
+  "FireSelectorModes": [],
   "Components": [
     {
       "Index": 0,
-      "ObjectID": "ShotModul153",
+      "ObjectID": "Modul153Dupe",
       "PosOffset": {
         "x": 0.0,
         "y": 0.0,
@@ -25,17 +34,42 @@
       "IsMagazine": false,
       "IsAttachment": false,
       "Flags": {
-        "HammerState": "Cocked",
-        "SafetyState": "Off"
+        "HammerState": "Uncocked",
+        "SafetyState": "On"
       }
     },
     {
       "Index": 1,
-      "ObjectID": "Barrel153750Rib",
+      "ObjectID": "153ForeP",
       "PosOffset": {
         "x": 0.0,
-        "y": 0.05499993,
-        "z": 0.224100232
+        "y": 0.009999931,
+        "z": 0.371400118
+      },
+      "OrientationForward": {
+        "x": 2.98023153E-08,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 4,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 2,
+      "ObjectID": "Barrel153610Rib",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0549999475,
+        "z": 0.224100113
       },
       "OrientationForward": {
         "x": 0.0,
@@ -55,12 +89,12 @@
       "Flags": {}
     },
     {
-      "Index": 2,
-      "ObjectID": "Stock133P",
+      "Index": 3,
+      "ObjectID": "MP133StockPis",
       "PosOffset": {
         "x": 0.0,
-        "y": 0.04419993,
-        "z": 0.0165998675
+        "y": 0.0441999435,
+        "z": 0.0165998936
       },
       "OrientationForward": {
         "x": 0.0,
@@ -68,7 +102,7 @@
         "z": 1.0
       },
       "OrientationUp": {
-        "x": 5.96046448E-08,
+        "x": 0.0,
         "y": 1.0,
         "z": 0.0
       },
@@ -78,34 +112,6 @@
       "IsMagazine": false,
       "IsAttachment": true,
       "Flags": {}
-    },
-    {
-      "Index": 3,
-      "ObjectID": "Mag153_5",
-      "PosOffset": {
-        "x": 0.0,
-        "y": 0.0264999177,
-        "z": 0.56827
-      },
-      "OrientationForward": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 1.0
-      },
-      "OrientationUp": {
-        "x": 0.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "ObjectAttachedTo": 0,
-      "MountAttachedTo": 1,
-      "IsFirearm": false,
-      "IsMagazine": false,
-      "IsAttachment": true,
-      "Flags": {}
     }
-  ],
-  "LoadedRoundsInMag": [],
-  "LoadedRoundsInChambers": [],
-  "SavedFlags": []
+  ]
 }

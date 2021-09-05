@@ -1,9 +1,24 @@
 {
   "FileName": "vault_saiga9",
+  "LoadedRoundsInMag": [],
+  "LoadedRoundsInChambers": [],
+  "SavedFlags": [],
+  "OverrideFireRate": false,
+  "SpeedRearward": -4.0,
+  "SpeedForward": 1.8,
+  "SpringStiffness": 130.0,
+  "OverrideFireSelectors": false,
+  "FireSelectorModes": [
+    {
+      "SelectorPosition": -17.0,
+      "ModeType": "Safe",
+      "BurstAmount": 0
+    }
+  ],
   "Components": [
     {
       "Index": 0,
-      "ObjectID": "Saiga9",
+      "ObjectID": "ModulSaiga9Dupe",
       "PosOffset": {
         "x": 0.0,
         "y": 0.0,
@@ -25,17 +40,16 @@
       "IsMagazine": false,
       "IsAttachment": false,
       "Flags": {
-        "HammerState": "Uncocked",
-        "FireSelectorState": "1"
+        "HammerState": "Uncocked"
       }
     },
     {
       "Index": 1,
-      "ObjectID": "PP19Dustcover",
+      "ObjectID": "MuzzlePP19",
       "PosOffset": {
         "x": 0.0,
-        "y": 0.07641299,
-        "z": 0.06335896
+        "y": 0.04060006,
+        "z": 0.486899853
       },
       "OrientationForward": {
         "x": 0.0,
@@ -48,7 +62,7 @@
         "z": 0.0
       },
       "ObjectAttachedTo": 0,
-      "MountAttachedTo": 5,
+      "MountAttachedTo": 0,
       "IsFirearm": false,
       "IsMagazine": false,
       "IsAttachment": true,
@@ -59,8 +73,83 @@
       "ObjectID": "AKForePlastic",
       "PosOffset": {
         "x": 0.0,
-        "y": 0.0499999262,
-        "z": 0.285000056
+        "y": 0.05000007,
+        "z": 0.284999847
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 1,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 3,
+      "ObjectID": "AKGripPP19",
+      "PosOffset": {
+        "x": 6.425381E-05,
+        "y": -0.000199973583,
+        "z": 0.00749993324
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 2,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 4,
+      "ObjectID": "AKStockAKS",
+      "PosOffset": {
+        "x": 0.000199913979,
+        "y": 0.02068001,
+        "z": -0.0348100662
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 2.38418579E-07,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": -2.38418579E-07
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 4,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 5,
+      "ObjectID": "PP19Dustcover",
+      "PosOffset": {
+        "x": 0.00244987,
+        "y": 0.0605999827,
+        "z": -0.0320999622
       },
       "OrientationForward": {
         "x": 0.0,
@@ -78,59 +167,6 @@
       "IsMagazine": false,
       "IsAttachment": true,
       "Flags": {}
-    },
-    {
-      "Index": 3,
-      "ObjectID": "AKStockAKS",
-      "PosOffset": {
-        "x": 0.0004999635,
-        "y": 0.0210000165,
-        "z": -0.035000056
-      },
-      "OrientationForward": {
-        "x": -1.01980013E-11,
-        "y": 4.90993261E-06,
-        "z": 1.0
-      },
-      "OrientationUp": {
-        "x": 9.02806649E-11,
-        "y": 1.0,
-        "z": -4.90993261E-06
-      },
-      "ObjectAttachedTo": 0,
-      "MountAttachedTo": 2,
-      "IsFirearm": false,
-      "IsMagazine": false,
-      "IsAttachment": true,
-      "Flags": {}
-    },
-    {
-      "Index": 4,
-      "ObjectID": "AKGripPP19",
-      "PosOffset": {
-        "x": 0.0,
-        "y": -0.000200033086,
-        "z": 0.005927319
-      },
-      "OrientationForward": {
-        "x": -3.7252903E-09,
-        "y": 0.0,
-        "z": 1.0
-      },
-      "OrientationUp": {
-        "x": 0.0,
-        "y": -1.0,
-        "z": 0.0
-      },
-      "ObjectAttachedTo": 0,
-      "MountAttachedTo": 4,
-      "IsFirearm": false,
-      "IsMagazine": false,
-      "IsAttachment": true,
-      "Flags": {}
     }
-  ],
-  "LoadedRoundsInMag": [],
-  "LoadedRoundsInChambers": [],
-  "SavedFlags": []
+  ]
 }

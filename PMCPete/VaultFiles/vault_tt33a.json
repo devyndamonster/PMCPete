@@ -1,18 +1,24 @@
 {
-  "FileName": "vault_153a",
+  "FileName": "vault_tt33a",
   "LoadedRoundsInMag": [],
   "LoadedRoundsInChambers": [],
   "SavedFlags": [],
   "OverrideFireRate": false,
-  "SpeedRearward": 0.0,
-  "SpeedForward": 0.0,
-  "SpringStiffness": 0.0,
+  "SpeedRearward": -4.0,
+  "SpeedForward": 1.8,
+  "SpringStiffness": 200.0,
   "OverrideFireSelectors": false,
-  "FireSelectorModes": [],
+  "FireSelectorModes": [
+    {
+      "SelectorPosition": 0.0,
+      "ModeType": "Single",
+      "BurstAmount": 3
+    }
+  ],
   "Components": [
     {
       "Index": 0,
-      "ObjectID": "Modul153Dupe",
+      "ObjectID": "TTframedupe",
       "PosOffset": {
         "x": 0.0,
         "y": 0.0,
@@ -34,30 +40,29 @@
       "IsMagazine": false,
       "IsAttachment": false,
       "Flags": {
-        "HammerState": "Uncocked",
-        "SafetyState": "On"
+        "HammerState": "Uncocked"
       }
     },
     {
       "Index": 1,
-      "ObjectID": "Barrel153610Rib",
+      "ObjectID": "ttcompdupe",
       "PosOffset": {
-        "x": 0.0,
-        "y": 0.0550001264,
-        "z": 0.224100113
+        "x": 1.1920929E-07,
+        "y": 0.03922999,
+        "z": 0.155799866
       },
       "OrientationForward": {
-        "x": 0.0,
-        "y": 0.0,
+        "x": -1.8477441E-06,
+        "y": -3.72529065E-08,
         "z": 1.0
       },
       "OrientationUp": {
-        "x": 0.0,
+        "x": -3.441692E-14,
         "y": 1.0,
-        "z": 0.0
+        "z": 3.72529065E-08
       },
       "ObjectAttachedTo": 0,
-      "MountAttachedTo": 2,
+      "MountAttachedTo": 1,
       "IsFirearm": false,
       "IsMagazine": false,
       "IsAttachment": true,
@@ -65,49 +70,24 @@
     },
     {
       "Index": 2,
-      "ObjectID": "153ForeP",
+      "ObjectID": "hoguedupe",
       "PosOffset": {
         "x": 0.0,
-        "y": 0.009999931,
-        "z": 0.371400118
+        "y": -0.0236999989,
+        "z": -9.98973846E-05
       },
       "OrientationForward": {
-        "x": 2.98023153E-08,
-        "y": 0.0,
-        "z": 1.0
+        "x": -1.05367084E-08,
+        "y": 0.9999999,
+        "z": 1.78813934E-07
       },
       "OrientationUp": {
-        "x": 0.0,
-        "y": -1.0,
-        "z": 0.0
+        "x": -1.05367093E-08,
+        "y": 1.78813934E-07,
+        "z": -0.9999999
       },
       "ObjectAttachedTo": 0,
-      "MountAttachedTo": 4,
-      "IsFirearm": false,
-      "IsMagazine": false,
-      "IsAttachment": true,
-      "Flags": {}
-    },
-    {
-      "Index": 3,
-      "ObjectID": "Stock133P",
-      "PosOffset": {
-        "x": 0.0,
-        "y": 0.0442000031,
-        "z": 0.0165998936
-      },
-      "OrientationForward": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 1.0
-      },
-      "OrientationUp": {
-        "x": -3.7252903E-09,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "ObjectAttachedTo": 0,
-      "MountAttachedTo": 3,
+      "MountAttachedTo": 2,
       "IsFirearm": false,
       "IsMagazine": false,
       "IsAttachment": true,
