@@ -29,6 +29,7 @@ Drag the .zip file into your `BepInEx/plugins` folder and unzip
 - [FTW Arms MK18](https://h3vr.thunderstore.io/package/Andrew_FTW/FTW_Arms_Mk18_Mjolnir/)
 - [Gamernayrs Modul Saiga](https://h3vr.thunderstore.io/package/nayr31/ModulSaiga12/)
 - [Gamernayrs Modul SVD](https://h3vr.thunderstore.io/package/nayr31/modulSVD/)
+- [Gamernayrs Golden TT](https://h3vr.thunderstore.io/package/nayr31/GoldenTT/)
 - [Wolfies ModulAR9](https://bonetome.com/h3vr/weapons/408/)
 - [Gamernayrs SR1MP](https://h3vr.thunderstore.io/package/nayr31/SR1MP/)
 - [Gamernayrs Vepr Hunter](https://h3vr.thunderstore.io/package/nayr31/VeprHunter/)
