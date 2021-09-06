@@ -1,6 +1,6 @@
 ﻿{
   "guid": "h3vr.tnhtweaker.pmcpete",
-  "version": "1.3.4",
+  "version": "1.3.5",
   "require": "0.4.1",
   "dependencies": {
       "h3vr.tnhtweaker.deli": "1.6.9"
