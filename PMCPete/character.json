@@ -16,6 +16,9 @@
   "HasTertiaryItem": false,
   "HasShield": true,
   "ValidAmmoEras": [
+    "Colonial",
+    "WildWest",
+    "TurnOfTheCentury",
     "WW1",
     "WW2",
     "PostWar",
