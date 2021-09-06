@@ -1,5 +1,5 @@
 {
-  "FileName": "vault_ar4",
+  "FileName": "vault_ar6",
   "LoadedRoundsInMag": [],
   "LoadedRoundsInChambers": [],
   "SavedFlags": [],
@@ -81,31 +81,6 @@
     },
     {
       "Index": 2,
-      "ObjectID": "AR15TubeA2Black",
-      "PosOffset": {
-        "x": 0.0,
-        "y": 0.054700017,
-        "z": -0.03970003
-      },
-      "OrientationForward": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 1.0
-      },
-      "OrientationUp": {
-        "x": 0.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "ObjectAttachedTo": 0,
-      "MountAttachedTo": 2,
-      "IsFirearm": false,
-      "IsMagazine": false,
-      "IsAttachment": true,
-      "Flags": {}
-    },
-    {
-      "Index": 3,
       "ObjectID": "AR15ChargeM4",
       "PosOffset": {
         "x": 0.0,
@@ -130,137 +105,37 @@
       "Flags": {}
     },
     {
+      "Index": 3,
+      "ObjectID": "AR15TubeA2Black",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.054700017,
+        "z": -0.03970003
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 2,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
       "Index": 4,
-      "ObjectID": "AR15GripMIAD",
-      "PosOffset": {
-        "x": 0.0,
-        "y": 0.00130993128,
-        "z": 0.00164985657
-      },
-      "OrientationForward": {
-        "x": 1.49011612E-08,
-        "y": 0.0,
-        "z": 1.0
-      },
-      "OrientationUp": {
-        "x": 0.0,
-        "y": -1.0,
-        "z": 0.0
-      },
-      "ObjectAttachedTo": 0,
-      "MountAttachedTo": 1,
-      "IsFirearm": false,
-      "IsMagazine": false,
-      "IsAttachment": true,
-      "Flags": {}
-    },
-    {
-      "Index": 5,
-      "ObjectID": "AR15Barrel10,5in",
-      "PosOffset": {
-        "x": 0.0,
-        "y": 0.0551000237,
-        "z": 0.158699989
-      },
-      "OrientationForward": {
-        "x": 5.58793767E-09,
-        "y": 1.06170759E-07,
-        "z": 1.0
-      },
-      "OrientationUp": {
-        "x": 5.96046377E-08,
-        "y": 1.0,
-        "z": -1.06170759E-07
-      },
-      "ObjectAttachedTo": 0,
-      "MountAttachedTo": 4,
-      "IsFirearm": false,
-      "IsMagazine": false,
-      "IsAttachment": true,
-      "Flags": {}
-    },
-    {
-      "Index": 6,
-      "ObjectID": "AR15ForeDDRIS95",
-      "PosOffset": {
-        "x": 0.0,
-        "y": 0.0557000041,
-        "z": 0.164600134
-      },
-      "OrientationForward": {
-        "x": 9.313226E-09,
-        "y": 9.96515155E-08,
-        "z": 1.0
-      },
-      "OrientationUp": {
-        "x": -1.130281E-15,
-        "y": 1.0,
-        "z": -9.96515155E-08
-      },
-      "ObjectAttachedTo": 0,
-      "MountAttachedTo": 5,
-      "IsFirearm": false,
-      "IsMagazine": false,
-      "IsAttachment": true,
-      "Flags": {}
-    },
-    {
-      "Index": 7,
-      "ObjectID": "AR15StockCTRFDE",
-      "PosOffset": {
-        "x": 0.0,
-        "y": 0.0546999574,
-        "z": -0.2197001
-      },
-      "OrientationForward": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 1.0
-      },
-      "OrientationUp": {
-        "x": 0.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "ObjectAttachedTo": 2,
-      "MountAttachedTo": 0,
-      "IsFirearm": false,
-      "IsMagazine": false,
-      "IsAttachment": true,
-      "Flags": {}
-    },
-    {
-      "Index": 8,
-      "ObjectID": "IronFrontSight",
-      "PosOffset": {
-        "x": 1.1920929E-07,
-        "y": 0.085670054,
-        "z": 0.371500254
-      },
-      "OrientationForward": {
-        "x": 3.55271283E-15,
-        "y": 1.19209275E-07,
-        "z": 1.0
-      },
-      "OrientationUp": {
-        "x": 5.96046377E-08,
-        "y": 1.0,
-        "z": -1.19209275E-07
-      },
-      "ObjectAttachedTo": 6,
-      "MountAttachedTo": 3,
-      "IsFirearm": false,
-      "IsMagazine": false,
-      "IsAttachment": true,
-      "Flags": {}
-    },
-    {
-      "Index": 9,
       "ObjectID": "IronRearSight",
       "PosOffset": {
-        "x": 1.1920929E-07,
+        "x": 0.0,
         "y": 0.08590001,
-        "z": 0.017884016
+        "z": 0.0209743977
       },
       "OrientationForward": {
         "x": 0.0,
@@ -274,6 +149,131 @@
       },
       "ObjectAttachedTo": 1,
       "MountAttachedTo": 0,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 5,
+      "ObjectID": "AR15StockEMOD",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0547000766,
+        "z": -0.2197001
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 3,
+      "MountAttachedTo": 0,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 6,
+      "ObjectID": "AR15Barrel10in",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.055100143,
+        "z": 0.158699989
+      },
+      "OrientationForward": {
+        "x": 2.98023224E-08,
+        "y": 1.1920929E-07,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": -2.11012721E-15,
+        "y": 1.0,
+        "z": -1.1920929E-07
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 4,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 7,
+      "ObjectID": "AR15ForeLVOAC",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0557000041,
+        "z": 0.1645999
+      },
+      "OrientationForward": {
+        "x": 1.11758718E-08,
+        "y": 1.02445469E-07,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 5.96046377E-08,
+        "y": 1.0,
+        "z": -1.02445469E-07
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 5,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 8,
+      "ObjectID": "IronFrontSight",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.08620012,
+        "z": 0.5484781
+      },
+      "OrientationForward": {
+        "x": -1.98426917E-23,
+        "y": 1.1920929E-07,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": -3.32905124E-16,
+        "y": 1.0,
+        "z": -1.1920929E-07
+      },
+      "ObjectAttachedTo": 7,
+      "MountAttachedTo": 1,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 9,
+      "ObjectID": "AR15GripOMRGBLK",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.00130999088,
+        "z": 0.00164985657
+      },
+      "OrientationForward": {
+        "x": -1.49011612E-08,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 1,
       "IsFirearm": false,
       "IsMagazine": false,
       "IsAttachment": true,

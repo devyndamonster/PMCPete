@@ -53,9 +53,9 @@
       "Index": 1,
       "ObjectID": "AR10Barrel508",
       "PosOffset": {
-        "x": -1.19209261E-07,
-        "y": 0.0570000336,
-        "z": 0.171000019
+        "x": 0.0,
+        "y": 0.05699998,
+        "z": 0.171
       },
       "OrientationForward": {
         "x": 0.0,
@@ -76,46 +76,21 @@
     },
     {
       "Index": 2,
-      "ObjectID": "AR15ForeURX4145BLK",
-      "PosOffset": {
-        "x": 0.0,
-        "y": 0.0567000434,
-        "z": 0.17069985
-      },
-      "OrientationForward": {
-        "x": -2.441835E-05,
-        "y": -0.0006110662,
-        "z": 0.9999998
-      },
-      "OrientationUp": {
-        "x": -0.00235629687,
-        "y": 0.999997,
-        "z": 0.0006110069
-      },
-      "ObjectAttachedTo": 0,
-      "MountAttachedTo": 4,
-      "IsFirearm": false,
-      "IsMagazine": false,
-      "IsAttachment": true,
-      "Flags": {}
-    },
-    {
-      "Index": 3,
       "ObjectID": "AR15GripA2",
       "PosOffset": {
         "x": 0.0,
-        "y": -0.00129997719,
-        "z": -0.00689005945
+        "y": -0.00130009651,
+        "z": -0.00689005852
       },
       "OrientationForward": {
-        "x": -7.450585E-09,
-        "y": 3.72528386E-09,
+        "x": -2.9802294E-08,
+        "y": -2.980235E-08,
         "z": 1.0
       },
       "OrientationUp": {
-        "x": 1.84774422E-06,
+        "x": 1.90734863E-06,
         "y": -1.0,
-        "z": 3.725298E-09
+        "z": -2.9802294E-08
       },
       "ObjectAttachedTo": 0,
       "MountAttachedTo": 2,
@@ -125,12 +100,12 @@
       "Flags": {}
     },
     {
-      "Index": 4,
-      "ObjectID": "AR15TubeA2Black",
+      "Index": 3,
+      "ObjectID": "AR15TubeEBT",
       "PosOffset": {
         "x": 0.0,
-        "y": 0.0554700419,
-        "z": -0.06999994
+        "y": 0.05546993,
+        "z": -0.06999993
       },
       "OrientationForward": {
         "x": 0.0,
@@ -150,12 +125,12 @@
       "Flags": {}
     },
     {
-      "Index": 5,
+      "Index": 4,
       "ObjectID": "AR15StockSOPMOD",
       "PosOffset": {
         "x": 0.0,
-        "y": 0.0554700419,
-        "z": -0.25000003
+        "y": 0.05546993,
+        "z": -0.25
       },
       "OrientationForward": {
         "x": 0.0,
@@ -167,8 +142,33 @@
         "y": 1.0,
         "z": 0.0
       },
-      "ObjectAttachedTo": 4,
+      "ObjectAttachedTo": 3,
       "MountAttachedTo": 0,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 5,
+      "ObjectID": "AR15ForeURX413BLK",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.05670011,
+        "z": 0.170699835
+      },
+      "OrientationForward": {
+        "x": -2.443334E-05,
+        "y": -0.0006110364,
+        "z": 0.9999998
+      },
+      "OrientationUp": {
+        "x": -0.002356118,
+        "y": 0.999997,
+        "z": 0.0006109771
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 4,
       "IsFirearm": false,
       "IsMagazine": false,
       "IsAttachment": true,
@@ -178,21 +178,21 @@
       "Index": 6,
       "ObjectID": "IronFrontSight",
       "PosOffset": {
-        "x": -8.45193645E-05,
-        "y": 0.08862107,
-        "z": 0.5318523
+        "x": -8.368492E-05,
+        "y": 0.0886417,
+        "z": 0.49808526
       },
       "OrientationForward": {
-        "x": -2.44034472E-05,
-        "y": -0.0006110661,
+        "x": -2.44333351E-05,
+        "y": -0.0006110288,
         "z": 0.9999998
       },
       "OrientationUp": {
-        "x": -0.00235629687,
+        "x": -0.00235614739,
         "y": 0.999997,
-        "z": 0.000611006864
+        "z": 0.000610969553
       },
-      "ObjectAttachedTo": 2,
+      "ObjectAttachedTo": 5,
       "MountAttachedTo": 3,
       "IsFirearm": false,
       "IsMagazine": false,
@@ -204,18 +204,18 @@
       "ObjectID": "IronRearSight",
       "PosOffset": {
         "x": 0.0,
-        "y": 0.08810001,
-        "z": 0.01686597
+        "y": 0.0881000161,
+        "z": 0.009433508
       },
       "OrientationForward": {
-        "x": -1.287858E-14,
-        "y": 1.49011576E-08,
+        "x": 2.98023437E-08,
+        "y": -2.98022922E-08,
         "z": 1.0
       },
       "OrientationUp": {
-        "x": -1.72853424E-06,
+        "x": -1.78813912E-06,
         "y": 1.0,
-        "z": -1.49011576E-08
+        "z": 2.98023437E-08
       },
       "ObjectAttachedTo": 0,
       "MountAttachedTo": 1,

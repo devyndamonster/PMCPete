@@ -51,14 +51,39 @@
     },
     {
       "Index": 1,
+      "ObjectID": "AR15ChargeRaptor",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.07399994,
+        "z": -0.0304999352
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": -5.96046448E-08,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 0,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 2,
       "ObjectID": "Ar15GripMOEBLK",
       "PosOffset": {
         "x": 0.0,
-        "y": 0.0008000118,
-        "z": 0.00165008462
+        "y": 0.000799953938,
+        "z": 0.001650095
       },
       "OrientationForward": {
-        "x": 7.45058149E-09,
+        "x": 0.0,
         "y": 0.0,
         "z": 1.0
       },
@@ -75,12 +100,12 @@
       "Flags": {}
     },
     {
-      "Index": 2,
+      "Index": 3,
       "ObjectID": "AR15StockPRS",
       "PosOffset": {
-        "x": 1.19208487E-07,
-        "y": 0.0549999438,
-        "z": -0.0394000933
+        "x": 0.0,
+        "y": 0.0550000668,
+        "z": -0.0393998623
       },
       "OrientationForward": {
         "x": 0.0,
@@ -88,7 +113,7 @@
         "z": 1.0
       },
       "OrientationUp": {
-        "x": -5.960465E-08,
+        "x": -5.96046448E-08,
         "y": 1.0,
         "z": 0.0
       },
@@ -100,37 +125,12 @@
       "Flags": {}
     },
     {
-      "Index": 3,
-      "ObjectID": "AR15ChargeRaptor",
-      "PosOffset": {
-        "x": 0.0,
-        "y": 0.0740000159,
-        "z": -0.0304999836
-      },
-      "OrientationForward": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 1.0
-      },
-      "OrientationUp": {
-        "x": 0.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "ObjectAttachedTo": 0,
-      "MountAttachedTo": 0,
-      "IsFirearm": false,
-      "IsMagazine": false,
-      "IsAttachment": true,
-      "Flags": {}
-    },
-    {
       "Index": 4,
       "ObjectID": "AR15UpperLS",
       "PosOffset": {
         "x": 0.0,
-        "y": 0.04090002,
-        "z": 0.135099992
+        "y": 0.04090011,
+        "z": 0.135100126
       },
       "OrientationForward": {
         "x": 0.0,
@@ -138,7 +138,7 @@
         "z": 1.0
       },
       "OrientationUp": {
-        "x": 0.0,
+        "x": -5.96046448E-08,
         "y": 1.0,
         "z": 0.0
       },
@@ -154,18 +154,18 @@
       "ObjectID": "AR15Barrel10in",
       "PosOffset": {
         "x": 0.0,
-        "y": 0.05510008,
-        "z": 0.158699945
+        "y": 0.0551000834,
+        "z": 0.158699989
       },
       "OrientationForward": {
-        "x": 1.77635642E-15,
-        "y": 1.19209275E-07,
+        "x": -2.98023188E-08,
+        "y": 1.1920929E-07,
         "z": 1.0
       },
       "OrientationUp": {
-        "x": 2.98023188E-08,
+        "x": 5.96046448E-08,
         "y": 1.0,
-        "z": -1.19209275E-07
+        "z": -1.1920929E-07
       },
       "ObjectAttachedTo": 0,
       "MountAttachedTo": 4,
@@ -179,18 +179,18 @@
       "ObjectID": "AR15ForeLoneStar",
       "PosOffset": {
         "x": 0.0,
-        "y": 0.05570012,
-        "z": 0.164600059
+        "y": 0.0557001233,
+        "z": 0.164600134
       },
       "OrientationForward": {
-        "x": 3.10862447E-15,
-        "y": 1.04308128E-07,
+        "x": -2.98023188E-08,
+        "y": 1.1920929E-07,
         "z": 1.0
       },
       "OrientationUp": {
         "x": 5.96046448E-08,
         "y": 1.0,
-        "z": -1.04308128E-07
+        "z": -1.1920929E-07
       },
       "ObjectAttachedTo": 0,
       "MountAttachedTo": 5,
@@ -204,18 +204,18 @@
       "ObjectID": "IronRearSight",
       "PosOffset": {
         "x": 0.0,
-        "y": 0.08592903,
-        "z": 0.0273721889
+        "y": 0.08590013,
+        "z": 0.0198857784
       },
       "OrientationForward": {
-        "x": 0.0,
-        "y": 0.0,
+        "x": 8.881784E-16,
+        "y": -2.98023224E-08,
         "z": 1.0
       },
       "OrientationUp": {
-        "x": 0.0,
+        "x": -5.96046448E-08,
         "y": 1.0,
-        "z": 0.0
+        "z": 2.98023224E-08
       },
       "ObjectAttachedTo": 4,
       "MountAttachedTo": 0,
@@ -228,19 +228,19 @@
       "Index": 8,
       "ObjectID": "IronFrontSight",
       "PosOffset": {
-        "x": -1.19208487E-07,
-        "y": 0.08590012,
-        "z": 0.545473754
+        "x": 0.0,
+        "y": 0.08590013,
+        "z": 0.5501902
       },
       "OrientationForward": {
-        "x": 3.55271368E-15,
-        "y": 1.1920929E-07,
+        "x": -2.98023224E-08,
+        "y": 1.192093E-07,
         "z": 1.0
       },
       "OrientationUp": {
-        "x": 5.96046448E-08,
+        "x": 5.960465E-08,
         "y": 1.0,
-        "z": -1.1920929E-07
+        "z": -1.192093E-07
       },
       "ObjectAttachedTo": 6,
       "MountAttachedTo": 3,

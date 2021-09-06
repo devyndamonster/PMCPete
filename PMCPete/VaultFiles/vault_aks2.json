@@ -1,5 +1,20 @@
 {
   "FileName": "vault_aks2",
+  "LoadedRoundsInMag": [],
+  "LoadedRoundsInChambers": [],
+  "SavedFlags": [],
+  "OverrideFireRate": false,
+  "SpeedRearward": -4.0,
+  "SpeedForward": 2.2,
+  "SpringStiffness": 150.0,
+  "OverrideFireSelectors": false,
+  "FireSelectorModes": [
+    {
+      "SelectorPosition": -105.0,
+      "ModeType": "Safe",
+      "BurstAmount": 0
+    }
+  ],
   "Components": [
     {
       "Index": 0,
@@ -25,42 +40,16 @@
       "IsMagazine": false,
       "IsAttachment": false,
       "Flags": {
-        "HammerState": "Uncocked",
-        "FireSelectorState": "1"
+        "HammerState": "Uncocked"
       }
     },
     {
       "Index": 1,
-      "ObjectID": "AKStockAKS",
-      "PosOffset": {
-        "x": 0.0,
-        "y": 0.0273000356,
-        "z": -0.0367998555
-      },
-      "OrientationForward": {
-        "x": 1.45661261E-13,
-        "y": 4.887581E-06,
-        "z": 1.0
-      },
-      "OrientationUp": {
-        "x": 5.96046448E-08,
-        "y": 1.0,
-        "z": -4.887581E-06
-      },
-      "ObjectAttachedTo": 0,
-      "MountAttachedTo": 1,
-      "IsFirearm": false,
-      "IsMagazine": false,
-      "IsAttachment": true,
-      "Flags": {}
-    },
-    {
-      "Index": 2,
       "ObjectID": "AKSForeB11",
       "PosOffset": {
         "x": 0.0,
-        "y": 0.0564999655,
-        "z": 0.277400345
+        "y": 0.056499958,
+        "z": 0.277400017
       },
       "OrientationForward": {
         "x": 0.0,
@@ -68,8 +57,33 @@
         "z": 1.0
       },
       "OrientationUp": {
-        "x": 1.86264493E-09,
+        "x": 0.0,
         "y": 1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 3,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 2,
+      "ObjectID": "AKGripRK3",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.00749987364,
+        "z": 0.00360012054
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": -1.0,
         "z": 0.0
       },
       "ObjectAttachedTo": 0,
@@ -83,19 +97,44 @@
       "Index": 3,
       "ObjectID": "AKSDustcover2",
       "PosOffset": {
-        "x": 0.00200009067,
-        "y": 0.0654000044,
-        "z": -0.03400011
+        "x": 0.00200009346,
+        "y": 0.065400064,
+        "z": -0.03399992
       },
       "OrientationForward": {
         "x": 0.0,
-        "y": -5.96046448E-07,
+        "y": -7.152557E-07,
         "z": 1.0
       },
       "OrientationUp": {
         "x": 0.0,
         "y": 1.0,
-        "z": 5.96046448E-07
+        "z": 7.152557E-07
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 5,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 4,
+      "ObjectID": "AKStockPT3",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.02729994,
+        "z": -0.0367999077
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 2.38418579E-07,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": -2.38418579E-07
       },
       "ObjectAttachedTo": 0,
       "MountAttachedTo": 6,
@@ -105,32 +144,29 @@
       "Flags": {}
     },
     {
-      "Index": 4,
-      "ObjectID": "AKGripAK12",
+      "Index": 5,
+      "ObjectID": "AKMiscB18Mount",
       "PosOffset": {
         "x": 0.0,
-        "y": 0.007500046,
-        "z": 0.001978633
+        "y": 0.08899993,
+        "z": 0.158800125
       },
       "OrientationForward": {
-        "x": -1.49011594E-08,
-        "y": 0.0,
+        "x": 2.10942341E-14,
+        "y": -7.078051E-07,
         "z": 1.0
       },
       "OrientationUp": {
-        "x": 0.0,
-        "y": -1.0,
-        "z": 0.0
+        "x": -5.96046377E-08,
+        "y": 1.0,
+        "z": 7.078051E-07
       },
-      "ObjectAttachedTo": 0,
-      "MountAttachedTo": 5,
+      "ObjectAttachedTo": 3,
+      "MountAttachedTo": 0,
       "IsFirearm": false,
       "IsMagazine": false,
       "IsAttachment": true,
       "Flags": {}
     }
-  ],
-  "LoadedRoundsInMag": [],
-  "LoadedRoundsInChambers": [],
-  "SavedFlags": []
+  ]
 }

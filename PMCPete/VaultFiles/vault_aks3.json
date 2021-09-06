@@ -1,5 +1,20 @@
 {
   "FileName": "vault_aks3",
+  "LoadedRoundsInMag": [],
+  "LoadedRoundsInChambers": [],
+  "SavedFlags": [],
+  "OverrideFireRate": false,
+  "SpeedRearward": -4.0,
+  "SpeedForward": 2.2,
+  "SpringStiffness": 150.0,
+  "OverrideFireSelectors": false,
+  "FireSelectorModes": [
+    {
+      "SelectorPosition": -105.0,
+      "ModeType": "Safe",
+      "BurstAmount": 0
+    }
+  ],
   "Components": [
     {
       "Index": 0,
@@ -25,51 +40,25 @@
       "IsMagazine": false,
       "IsAttachment": false,
       "Flags": {
-        "HammerState": "Uncocked",
-        "FireSelectorState": "1"
+        "HammerState": "Uncocked"
       }
     },
     {
       "Index": 1,
-      "ObjectID": "AKSDustcover2",
-      "PosOffset": {
-        "x": 0.00199996727,
-        "y": 0.0654000044,
-        "z": -0.034000054
-      },
-      "OrientationForward": {
-        "x": 0.0,
-        "y": -6.55651036E-07,
-        "z": 1.0
-      },
-      "OrientationUp": {
-        "x": 0.0,
-        "y": 1.0,
-        "z": 6.55651036E-07
-      },
-      "ObjectAttachedTo": 0,
-      "MountAttachedTo": 6,
-      "IsFirearm": false,
-      "IsMagazine": false,
-      "IsAttachment": true,
-      "Flags": {}
-    },
-    {
-      "Index": 2,
-      "ObjectID": "AKSForeXRS",
+      "ObjectID": "AKGrip74Bakelite",
       "PosOffset": {
         "x": 0.0,
-        "y": 0.0564999655,
-        "z": 0.277400136
+        "y": 0.007499993,
+        "z": 0.00359988213
       },
       "OrientationForward": {
-        "x": 0.0,
+        "x": -1.49011594E-08,
         "y": 0.0,
         "z": 1.0
       },
       "OrientationUp": {
         "x": 0.0,
-        "y": 1.0,
+        "y": -1.0,
         "z": 0.0
       },
       "ObjectAttachedTo": 0,
@@ -80,25 +69,50 @@
       "Flags": {}
     },
     {
-      "Index": 3,
-      "ObjectID": "AKStockPT3",
+      "Index": 2,
+      "ObjectID": "AKSDustcover2",
       "PosOffset": {
-        "x": 1.1920887E-07,
-        "y": 0.0272999164,
-        "z": -0.0368000343
+        "x": 0.00199997425,
+        "y": 0.0653999448,
+        "z": -0.03399992
       },
       "OrientationForward": {
-        "x": 1.45661261E-13,
-        "y": 4.887581E-06,
+        "x": 3.7252903E-09,
+        "y": -6.593764E-07,
         "z": 1.0
       },
       "OrientationUp": {
-        "x": 5.96046448E-08,
+        "x": 1.22818422E-15,
         "y": 1.0,
-        "z": -4.887581E-06
+        "z": 6.593764E-07
       },
       "ObjectAttachedTo": 0,
-      "MountAttachedTo": 1,
+      "MountAttachedTo": 5,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 3,
+      "ObjectID": "AKStockAKS",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.02730006,
+        "z": -0.0367999077
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 1.78813934E-07,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": -1.78813934E-07
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 6,
       "IsFirearm": false,
       "IsMagazine": false,
       "IsAttachment": true,
@@ -106,11 +120,11 @@
     },
     {
       "Index": 4,
-      "ObjectID": "AKGripRK3",
+      "ObjectID": "AKSForeXRS",
       "PosOffset": {
         "x": 0.0,
-        "y": 0.007500046,
-        "z": 0.00197862973
+        "y": 0.056499958,
+        "z": 0.277400017
       },
       "OrientationForward": {
         "x": 0.0,
@@ -119,18 +133,15 @@
       },
       "OrientationUp": {
         "x": 0.0,
-        "y": -1.0,
+        "y": 1.0,
         "z": 0.0
       },
       "ObjectAttachedTo": 0,
-      "MountAttachedTo": 5,
+      "MountAttachedTo": 3,
       "IsFirearm": false,
       "IsMagazine": false,
       "IsAttachment": true,
       "Flags": {}
     }
-  ],
-  "LoadedRoundsInMag": [],
-  "LoadedRoundsInChambers": [],
-  "SavedFlags": []
+  ]
 }

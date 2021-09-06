@@ -1,5 +1,20 @@
 {
   "FileName": "vault_aks1",
+  "LoadedRoundsInMag": [],
+  "LoadedRoundsInChambers": [],
+  "SavedFlags": [],
+  "OverrideFireRate": false,
+  "SpeedRearward": -4.0,
+  "SpeedForward": 2.2,
+  "SpringStiffness": 150.0,
+  "OverrideFireSelectors": false,
+  "FireSelectorModes": [
+    {
+      "SelectorPosition": -105.0,
+      "ModeType": "Safe",
+      "BurstAmount": 0
+    }
+  ],
   "Components": [
     {
       "Index": 0,
@@ -25,8 +40,7 @@
       "IsMagazine": false,
       "IsAttachment": false,
       "Flags": {
-        "HammerState": "Uncocked",
-        "FireSelectorState": "1"
+        "HammerState": "Uncocked"
       }
     },
     {
@@ -34,8 +48,8 @@
       "ObjectID": "AKSForeAKS",
       "PosOffset": {
         "x": 0.0,
-        "y": 0.0565001,
-        "z": 0.277399927
+        "y": 0.056499958,
+        "z": 0.277400017
       },
       "OrientationForward": {
         "x": 0.0,
@@ -43,8 +57,33 @@
         "z": 1.0
       },
       "OrientationUp": {
-        "x": 7.450581E-09,
+        "x": 0.0,
         "y": 1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 3,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 2,
+      "ObjectID": "AKGrip74Bakelite",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.007499993,
+        "z": 0.00359988213
+      },
+      "OrientationForward": {
+        "x": -1.49011594E-08,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": -1.0,
         "z": 0.0
       },
       "ObjectAttachedTo": 0,
@@ -55,72 +94,22 @@
       "Flags": {}
     },
     {
-      "Index": 2,
-      "ObjectID": "AKStockAKS",
-      "PosOffset": {
-        "x": 0.0,
-        "y": 0.0273000412,
-        "z": -0.0368001051
-      },
-      "OrientationForward": {
-        "x": -5.9604492E-08,
-        "y": 4.91738274E-06,
-        "z": 1.0
-      },
-      "OrientationUp": {
-        "x": 5.960479E-08,
-        "y": 1.0,
-        "z": -4.91738274E-06
-      },
-      "ObjectAttachedTo": 0,
-      "MountAttachedTo": 1,
-      "IsFirearm": false,
-      "IsMagazine": false,
-      "IsAttachment": true,
-      "Flags": {}
-    },
-    {
       "Index": 3,
       "ObjectID": "AKSDustcover2",
       "PosOffset": {
-        "x": 0.00199997239,
-        "y": 0.06540002,
-        "z": -0.03400012
+        "x": 0.00199997425,
+        "y": 0.0653999448,
+        "z": -0.03399992
       },
       "OrientationForward": {
-        "x": 0.0,
-        "y": -6.556511E-07,
+        "x": 3.7252903E-09,
+        "y": -6.593764E-07,
         "z": 1.0
       },
       "OrientationUp": {
-        "x": 0.0,
+        "x": 1.22818422E-15,
         "y": 1.0,
-        "z": 6.556511E-07
-      },
-      "ObjectAttachedTo": 0,
-      "MountAttachedTo": 6,
-      "IsFirearm": false,
-      "IsMagazine": false,
-      "IsAttachment": true,
-      "Flags": {}
-    },
-    {
-      "Index": 4,
-      "ObjectID": "AKGrip74Bakelite",
-      "PosOffset": {
-        "x": 1.19209183E-07,
-        "y": 0.007500107,
-        "z": 0.00197863346
-      },
-      "OrientationForward": {
-        "x": -2.98023259E-08,
-        "y": 0.0,
-        "z": 1.0
-      },
-      "OrientationUp": {
-        "x": 0.0,
-        "y": -1.0,
-        "z": 0.0
+        "z": 6.593764E-07
       },
       "ObjectAttachedTo": 0,
       "MountAttachedTo": 5,
@@ -128,9 +117,31 @@
       "IsMagazine": false,
       "IsAttachment": true,
       "Flags": {}
+    },
+    {
+      "Index": 4,
+      "ObjectID": "AKStockAKS",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.02730006,
+        "z": -0.0367999077
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 1.78813934E-07,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": -1.78813934E-07
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 6,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
     }
-  ],
-  "LoadedRoundsInMag": [],
-  "LoadedRoundsInChambers": [],
-  "SavedFlags": []
+  ]
 }
