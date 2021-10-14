@@ -256,14 +256,11 @@
     "BespokeAttachmentChance": -1.0,
     "IsCompatibleMagazine": false,
     "AutoPopulateGroup": false,
-    "ForceSpawnAllSubPools": false,
+    "ForceSpawnAllSubPools": true,
     "IDOverride": [
-      "RPKBakelite",
-      "RPK40",
       "AK12",
       "MagazineAK74Drum",
-      "RPK16Drum",
-      "6L31"
+      "MagazineRPK16Drum"
     ],
     "Eras": [],
     "Sets": [],
@@ -281,6 +278,79 @@
     "PowerupTypes": [],
     "ThrownTypes": [],
     "ThrownDamageTypes": [],
-    "SubGroups": null
+    "SubGroups": [
+      {
+        "Category": "Firearm",
+        "Rarity": 1.0,
+        "RequiredQuest": "",
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": 0,
+        "MaxAmmoCapacity": 11,
+        "NumMagsSpawned": 0,
+        "NumClipsSpawned": 0,
+        "NumRoundsSpawned": 0,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0.5,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": false,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [
+          "HelmetKilla"
+        ],
+        "Eras": [],
+        "Sets": [],
+        "Sizes": [],
+        "Actions": [],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": []
+      },
+      {
+        "Category": "Firearm",
+        "Rarity": 1.0,
+        "RequiredQuest": "",
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": 0,
+        "MaxAmmoCapacity": 11,
+        "NumMagsSpawned": 0,
+        "NumClipsSpawned": 0,
+        "NumRoundsSpawned": 0,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0.5,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": false,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [
+          "FacemaskKilla"
+        ],
+        "Eras": [],
+        "Sets": [],
+        "Sizes": [],
+        "Actions": [],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": []
+      }
+    ]
   }
 }

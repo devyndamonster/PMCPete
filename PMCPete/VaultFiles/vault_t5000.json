@@ -1,29 +1,18 @@
 {
-  "FileName": "vault_m1a_3",
+  "FileName": "vault_t5000",
   "LoadedRoundsInMag": [],
   "LoadedRoundsInChambers": [],
   "SavedFlags": [],
   "OverrideFireRate": false,
-  "SpeedRearward": -4.0,
-  "SpeedForward": 4.0,
-  "SpringStiffness": 150.0,
+  "SpeedRearward": 0.0,
+  "SpeedForward": 0.0,
+  "SpringStiffness": 0.0,
   "OverrideFireSelectors": false,
-  "FireSelectorModes": [
-    {
-      "SelectorPosition": 0.10968,
-      "ModeType": "Safe",
-      "BurstAmount": 0
-    },
-    {
-      "SelectorPosition": 0.1234,
-      "ModeType": "Single",
-      "BurstAmount": 0
-    }
-  ],
+  "FireSelectorModes": [],
   "Components": [
     {
       "Index": 0,
-      "ObjectID": "FTW.Gun.M1Framedupe",
+      "ObjectID": "T5000Dupe",
       "PosOffset": {
         "x": 0.0,
         "y": 0.0,
@@ -51,36 +40,11 @@
     },
     {
       "Index": 1,
-      "ObjectID": "FTW.Gun.SASSFrame",
+      "ObjectID": "T5000Stock",
       "PosOffset": {
-        "x": 0.00159990392,
-        "y": 0.0135000227,
-        "z": 0.0009000278
-      },
-      "OrientationForward": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 1.0
-      },
-      "OrientationUp": {
-        "x": -2.98023224E-08,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "ObjectAttachedTo": 0,
-      "MountAttachedTo": 2,
-      "IsFirearm": false,
-      "IsMagazine": false,
-      "IsAttachment": true,
-      "Flags": {}
-    },
-    {
-      "Index": 2,
-      "ObjectID": "FTW.Gun.barrel20",
-      "PosOffset": {
-        "x": 6.997568E-05,
-        "y": 0.04534002,
-        "z": 0.2261001
+        "x": -0.00150001049,
+        "y": 0.0413650274,
+        "z": 0.187320232
       },
       "OrientationForward": {
         "x": 0.0,
@@ -100,12 +64,37 @@
       "Flags": {}
     },
     {
-      "Index": 3,
-      "ObjectID": "AR15TubeSIBlack",
+      "Index": 2,
+      "ObjectID": "m700heavylong",
       "PosOffset": {
-        "x": 0.0011999578,
-        "y": 0.04640009,
-        "z": -0.0338999368
+        "x": -0.0012999773,
+        "y": 0.0608300567,
+        "z": 0.210000038
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 2,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 3,
+      "ObjectID": "T5000Guard",
+      "PosOffset": {
+        "x": -0.00160002708,
+        "y": 0.06066495,
+        "z": 0.421420336
       },
       "OrientationForward": {
         "x": 0.0,
@@ -118,7 +107,7 @@
         "z": 0.0
       },
       "ObjectAttachedTo": 1,
-      "MountAttachedTo": 5,
+      "MountAttachedTo": 0,
       "IsFirearm": false,
       "IsMagazine": false,
       "IsAttachment": true,
@@ -126,11 +115,11 @@
     },
     {
       "Index": 4,
-      "ObjectID": "AR15StockCTRFDE",
+      "ObjectID": "IronFrontSight",
       "PosOffset": {
-        "x": 0.00119983859,
-        "y": 0.04640003,
-        "z": -0.223899975
+        "x": -0.00160002708,
+        "y": 0.09206492,
+        "z": 0.5442896
       },
       "OrientationForward": {
         "x": 0.0,
@@ -143,7 +132,7 @@
         "z": 0.0
       },
       "ObjectAttachedTo": 3,
-      "MountAttachedTo": 0,
+      "MountAttachedTo": 1,
       "IsFirearm": false,
       "IsMagazine": false,
       "IsAttachment": true,
@@ -151,74 +140,24 @@
     },
     {
       "Index": 5,
-      "ObjectID": "AR15GripA2FDE",
-      "PosOffset": {
-        "x": 0.00160002313,
-        "y": -0.0207000189,
-        "z": 0.0108000953
-      },
-      "OrientationForward": {
-        "x": 1.117587E-08,
-        "y": 3.72528985E-09,
-        "z": 1.0
-      },
-      "OrientationUp": {
-        "x": 2.08166784E-17,
-        "y": -1.0,
-        "z": 3.72528985E-09
-      },
-      "ObjectAttachedTo": 1,
-      "MountAttachedTo": 6,
-      "IsFirearm": false,
-      "IsMagazine": false,
-      "IsAttachment": true,
-      "Flags": {}
-    },
-    {
-      "Index": 6,
       "ObjectID": "IronRearSight",
       "PosOffset": {
-        "x": 0.00160002313,
-        "y": 0.08180003,
-        "z": 0.0134279383
+        "x": -0.00150001049,
+        "y": 0.08740002,
+        "z": 0.09267998
       },
       "OrientationForward": {
-        "x": -1.33226742E-15,
-        "y": 4.470348E-08,
+        "x": -2.57571742E-14,
+        "y": 2.98023224E-08,
         "z": 1.0
       },
       "OrientationUp": {
-        "x": -5.96046377E-08,
+        "x": -1.7285347E-06,
         "y": 1.0,
-        "z": -4.470348E-08
+        "z": -2.98023224E-08
       },
-      "ObjectAttachedTo": 1,
-      "MountAttachedTo": 1,
-      "IsFirearm": false,
-      "IsMagazine": false,
-      "IsAttachment": true,
-      "Flags": {}
-    },
-    {
-      "Index": 7,
-      "ObjectID": "IronFrontSight",
-      "PosOffset": {
-        "x": 0.00159990392,
-        "y": 0.08180003,
-        "z": 0.5493047
-      },
-      "OrientationForward": {
-        "x": 2.98023188E-08,
-        "y": 2.98023188E-08,
-        "z": 1.0
-      },
-      "OrientationUp": {
-        "x": -4.440891E-16,
-        "y": 1.0,
-        "z": -2.98023188E-08
-      },
-      "ObjectAttachedTo": 1,
-      "MountAttachedTo": 1,
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 3,
       "IsFirearm": false,
       "IsMagazine": false,
       "IsAttachment": true,

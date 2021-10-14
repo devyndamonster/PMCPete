@@ -719,7 +719,8 @@
           "vault_scopemosin",
           "vault_scopesks",
           "vault_scopesv98",
-          "vault_scopevpo"
+          "vault_scopevpo",
+          "vault_t5000"
         ],
         "Eras": [],
         "Sets": [],
@@ -841,7 +842,7 @@
         "IDOverride": [
           "vault_svd",
           "vault_sr25",
-          "Ash12",
+          "RifleAsh12",
           "Gun.FTW.MK18MJOLNIRTan"
         ],
         "Eras": [],
@@ -1462,7 +1463,8 @@
           "ASVAL",
           "H416",
           "vault_mcx",
-          "vault_adar"
+          "vault_adar",
+          "vault_mutant"
         ],
         "Eras": [],
         "Sets": [],
@@ -2307,7 +2309,7 @@
             "ForceSpawnAllSubPools": false,
             "IDOverride": [
               "Choke870",
-              "MuzzleBrakeAKS74",
+              "MuzzleAKS74",
               "MuzzleAK104",
               "MuzzleAK74m"
             ],
@@ -2649,10 +2651,10 @@
             "IDOverride": [
               "modulfal",
               "SVD-S",
-              "ModulPP19",
-              "ModulAKS",
-              "Modul133",
-              "ShotModul153"
+              "ModulPP19Dupe",
+              "ModulAKSDupe",
+              "Modul133Dupe",
+              "Modul153Dupe"
             ],
             "Eras": [],
             "Sets": [],
@@ -2687,9 +2689,9 @@
                 "AutoPopulateGroup": false,
                 "ForceSpawnAllSubPools": false,
                 "IDOverride": [
-                  "ModulARLower",
-                  "ModulADARLower",
-                  "ModulTX15Lower",
+                  "ModulARLowerdupe",
+                  "ModulADARLowerdupe",
+                  "ModulTX15Lowerdupe",
                   "ModulSR25dupe",
                   "mdlstm"
                 ],
@@ -2727,13 +2729,13 @@
                 "AutoPopulateGroup": false,
                 "ForceSpawnAllSubPools": false,
                 "IDOverride": [
-                  "ModulAK74m",
-                  "ModulAK101",
-                  "ModulAK102",
-                  "ModulAK103",
-                  "ModulAK104",
-                  "ModulAK105",
-                  "ModulAKM"
+                  "ModulAK74MDupe",
+                  "ModulAK101Dupe",
+                  "ModulAK102Dupe",
+                  "ModulAK103Dupe",
+                  "ModulAK104Dupe",
+                  "ModulAK105Dupe",
+                  "ModulAKMDupe"
                 ],
                 "Eras": [],
                 "Sets": [],
@@ -2790,7 +2792,20 @@
               "H416",
               "SKSModern",
               "deserttech MDR",
-              "potatoesAKMunderfolder"
+              "potatoesAKMunderfolder",
+              "ModulAK74M",
+              "ModulAK101",
+              "ModulAK102",
+              "ModulAK103",
+              "ModulAK104",
+              "ModulAK105",
+              "ModulAKM",
+              "ModulARLower",
+              "ModulADARLower",
+              "ModulTX15Lower",
+              "ModulSR25",
+              "Modul133",
+              "Modul153"
             ],
             "Eras": [],
             "Sets": [],
@@ -3170,7 +3185,7 @@
               "AKGrip74Polymer",
               "AKGripStrike",
               "AKGripStrikeblk",
-              "AKMGrip",
+              "AKGripAKM",
               "AKGripMOE",
               "AKGripMG47Red",
               "AKGripMG47Gold",
@@ -3400,7 +3415,7 @@
               "AKGrip74Polymer",
               "AKGripStrike",
               "AKGripStrikeblk",
-              "AKMGrip",
+              "AKGripAKM",
               "AKGripMOE",
               "AKGripMG47Red",
               "AKGripMG47Gold",
@@ -3609,9 +3624,9 @@
             "AutoPopulateGroup": false,
             "ForceSpawnAllSubPools": false,
             "IDOverride": [
-              "AKRailAKRS",
-              "AKRailB13",
-              "RailB18Mount"
+              "AKMiscAKRS",
+              "AKMiscB13",
+              "AKMiscB18Mount"
             ],
             "Eras": [],
             "Sets": [],
