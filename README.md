@@ -15,7 +15,7 @@ Drag the .zip file into your `BepInEx/plugins` folder and unzip
 - [Meats ModulAR Overhaul](https://h3vr.thunderstore.io/package/Meat_banono/Meats_ModulAR/)
 - [Meats ASh-12](https://h3vr.thunderstore.io/package/Meat_banono/Meats_ASh12/)
 - [Meats ModulMCX and ModulMPX](https://h3vr.thunderstore.io/package/Meat_banono/Meats_ModulSIG/)
-- [Meats Rigs](https://bonetome.com/h3vr/weapons/176/)
+- [Meats Rigs](https://h3vr.thunderstore.io/package/Meat_banono/Meats_Rigs/)
 - [Meats ModulAK](https://h3vr.thunderstore.io/package/Meat_banono/Meats_ModulAK/)
 - [Meats ModulShotguns](https://h3vr.thunderstore.io/package/Meat_banono/Meats_ModulShotguns/)
 - [FTW Arms Ammo Boxes](https://bonetome.com/h3vr/weapons/301/)
@@ -36,3 +36,4 @@ Drag the .zip file into your `BepInEx/plugins` folder and unzip
 - [Gamernayrs Vepr Hunter](https://h3vr.thunderstore.io/package/nayr31/VeprHunter/)
 - [Arpys Mag Fed SKS](https://h3vr.thunderstore.io/package/Arpy/Magazine_fed_Classic_SKS_Kit/)
 - [Superpugs ModulTT](https://h3vr.thunderstore.io/package/superpug/ModulTT/)
+- [FTW Arms Modular Addons](https://h3vr.thunderstore.io/package/Andrew_FTW/FTW_Arms_Modular_Addons/)
