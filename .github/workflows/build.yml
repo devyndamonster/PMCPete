@@ -27,11 +27,8 @@ jobs:
       - name: Package deli file
         run: |
           mkdir Devyndamonster-PMCPete
-          mkdir deli
-          mkdir deli/PMCPete
-          cp -R PMCPete deli/PMCPete/
-          cp manifest.json deli/PMCPete/
-          zip -r Devyndamonster-PMCPete/PMCPete.deli deli/PMCPete
+          zip -r Devyndamonster-PMCPete/PMCPete.deli PMCPete
+          zip -u Devyndamonster-PMCPete/PMCPete.deli manifest.json
           ls
           
         
