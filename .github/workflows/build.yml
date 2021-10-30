@@ -28,7 +28,7 @@ jobs:
         run: |
           mkdir Devyndamonster-PMCPete
           zip -r PMCPete.deli PMCPete
-          mv PMCPete.deli /Devyndamonster-PMCPete
+          ls
           
         
       - name: Package files
