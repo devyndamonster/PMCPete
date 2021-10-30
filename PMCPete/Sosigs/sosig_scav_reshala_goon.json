@@ -284,6 +284,44 @@
     "PowerupTypes": [],
     "ThrownTypes": [],
     "ThrownDamageTypes": [],
-    "SubGroups": null
+    "SubGroups": [
+      {
+        "Category": "Attachment",
+        "Rarity": 3.0,
+        "RequiredQuest": "",
+        "ItemsToSpawn": 1,
+        "MinAmmoCapacity": 0,
+        "MaxAmmoCapacity": 0,
+        "NumMagsSpawned": 0,
+        "NumClipsSpawned": 0,
+        "NumRoundsSpawned": 0,
+        "SpawnMagAndClip": false,
+        "BespokeAttachmentChance": 0.0,
+        "IsCompatibleMagazine": false,
+        "AutoPopulateGroup": false,
+        "ForceSpawnAllSubPools": false,
+        "IDOverride": [
+          "ftw.altyn.helmet",
+          "FTW.ZSH.helmet"
+        ],
+        "Eras": [],
+        "Sets": [],
+        "Sizes": [],
+        "Actions": [],
+        "Modes": [],
+        "ExcludedModes": [],
+        "FeedOptions": [],
+        "MountsAvailable": [],
+        "RoundPowers": [],
+        "Features": [],
+        "MeleeStyles": [],
+        "MeleeHandedness": [],
+        "MountTypes": [],
+        "PowerupTypes": [],
+        "ThrownTypes": [],
+        "ThrownDamageTypes": [],
+        "SubGroups": []
+      }
+    ]
   }
 }
