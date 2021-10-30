@@ -28,7 +28,10 @@ jobs:
         run: |
           mkdir Devyndamonster-PMCPete
           zip -r Devyndamonster-PMCPete/PMCPete.deli PMCPete
-          zip -u Devyndamonster-PMCPete/PMCPete.deli manifest.json
+          zip -u Devyndamonster-PMCPete/PMCPete.deli deli/manifest.json
+          cp manifest.json Devyndamonster-PMCPete/
+          cp icon.png Devyndamonster-PMCPete/
+          cp README.md Devyndamonster-PMCPete/
           ls
           
         
