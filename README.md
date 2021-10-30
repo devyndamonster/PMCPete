@@ -1,6 +1,7 @@
 ![PMC Pete](https://i.imgur.com/RYqHM2P.png)
 
-<a href='https://ko-fi.com/devyn_myers' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
+[![Exampled Video](https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0)](https://ko-fi.com/devyn_myers)
+
 ### Welcome To Tarkov!
 
 This character is themed around the game Escape From Tarkov. Start out as a hatchet runner, and take on increasingly difficult enemies. Enemies can drop items and equipment. Additionally, each round has a chance for a scav boss to spawn as a patrol. These bosses are very difficult, but will always drop some kind of item.
@@ -15,7 +16,7 @@ Drag the .zip file into your `BepInEx/plugins` folder and unzip
 - [Meats ModulAR Overhaul](https://h3vr.thunderstore.io/package/Meat_banono/Meats_ModulAR/)
 - [Meats ASh-12](https://h3vr.thunderstore.io/package/Meat_banono/Meats_ASh12/)
 - [Meats ModulMCX and ModulMPX](https://h3vr.thunderstore.io/package/Meat_banono/Meats_ModulSIG/)
-- [Meats Rigs](https://bonetome.com/h3vr/weapons/176/)
+- [Meats Rigs](https://h3vr.thunderstore.io/package/Meat_banono/Meats_Rigs/)
 - [Meats ModulAK](https://h3vr.thunderstore.io/package/Meat_banono/Meats_ModulAK/)
 - [Meats ModulShotguns](https://h3vr.thunderstore.io/package/Meat_banono/Meats_ModulShotguns/)
 - [FTW Arms Ammo Boxes](https://bonetome.com/h3vr/weapons/301/)
@@ -36,3 +37,4 @@ Drag the .zip file into your `BepInEx/plugins` folder and unzip
 - [Gamernayrs Vepr Hunter](https://h3vr.thunderstore.io/package/nayr31/VeprHunter/)
 - [Arpys Mag Fed SKS](https://h3vr.thunderstore.io/package/Arpy/Magazine_fed_Classic_SKS_Kit/)
 - [Superpugs ModulTT](https://h3vr.thunderstore.io/package/superpug/ModulTT/)
+- [FTW Arms Modular Addons](https://h3vr.thunderstore.io/package/Andrew_FTW/FTW_Arms_Modular_Addons/)
