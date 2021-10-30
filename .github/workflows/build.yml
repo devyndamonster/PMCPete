@@ -24,8 +24,19 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
         
-      - name: test stuff
+      - name: Package deli file
         run: |
-          ls
+          mkdir Devyndamonster-PMCPete
+          zip -r PMCPete.deli PMCPete
+          mv PMCPete.deli /Devyndamonster-PMCPete
+          
+        
+      - name: Package files
+        uses: actions/upload-artifacts@v2
+        with:
+          name: PMCPeteRelease
+          path: Devyndamonster-PMCPete
+          
+          
       
  
