@@ -1,6 +1,6 @@
 ![PMC Pete](https://i.imgur.com/RYqHM2P.png)
 
-[![Exampled Video](https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0)](https://ko-fi.com/devyn_myers)
+[![Kofi](https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0)](https://ko-fi.com/devyn_myers)
 
 ### Welcome To Tarkov!
 
@@ -38,3 +38,6 @@ Drag the .zip file into your `BepInEx/plugins` folder and unzip
 - [Arpys Mag Fed SKS](https://h3vr.thunderstore.io/package/Arpy/Magazine_fed_Classic_SKS_Kit/)
 - [Superpugs ModulTT](https://h3vr.thunderstore.io/package/superpug/ModulTT/)
 - [FTW Arms Modular Addons](https://h3vr.thunderstore.io/package/Andrew_FTW/FTW_Arms_Modular_Addons/)
+- [FTW Arms Nightvision](https://h3vr.thunderstore.io/package/Andrew_FTW/FTW_Arms_Nightvision/)
+- [FTW Arms Helmets](https://h3vr.thunderstore.io/package/Andrew_FTW/FTW_Arms_Modular_Helmets/)
+- [FTW Arms Modern Warfighter Remastered](https://h3vr.thunderstore.io/package/Andrew_FTW/FTW_Arms_Modern_Warfighter_Remastered/)
