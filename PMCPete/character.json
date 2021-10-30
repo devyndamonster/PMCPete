@@ -15,6 +15,7 @@
   "HasSecondaryItem": false,
   "HasTertiaryItem": false,
   "HasShield": true,
+  "DisableCleanupSosigDrops": true,
   "ValidAmmoEras": [
     "Colonial",
     "WildWest",
@@ -6717,9 +6718,9 @@
       "MinBoxesSpawned": 3,
       "MaxBoxesSpawned": 5,
       "MinTokensPerSupply": 1,
-      "MaxTokensPerSupply": 1,
-      "BoxTokenChance": 0.75,
-      "BoxHealthChance": 0.15,
+      "MaxTokensPerSupply": 2,
+      "BoxTokenChance": 0.70,
+      "BoxHealthChance": 0.1,
       "PossiblePanelTypes": [
         "AmmoReloader",
         "MagDuplicator",
@@ -6862,5 +6863,191 @@
       ]
     }
   ],
-  "LevelsEndless": []
+  "LevelsEndless": [
+    {
+      "NumOverrideTokensForHold": 1,
+      "MinSupplyPoints": 4,
+      "MaxSupplyPoints": 4,
+      "MinConstructors": 1,
+      "MaxConstructors": 2,
+      "MinPanels": 2,
+      "MaxPanels": 2,
+      "MinBoxesSpawned": 3,
+      "MaxBoxesSpawned": 5,
+      "MinTokensPerSupply": 1,
+      "MaxTokensPerSupply": 2,
+      "BoxTokenChance": 0.70,
+      "BoxHealthChance": 0.10,
+      "PossiblePanelTypes": [
+        "AmmoReloader",
+        "MagDuplicator",
+        "Recycler"
+      ],
+      "TakeChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "Scav_1",
+        "NumTurrets": 0,
+        "NumGuards": 8,
+        "IFFUsed": 1
+      },
+      "HoldPhases": [
+        {
+          "Encryptions": [
+            "Swarm",
+            "Recursive",
+            "Stealth",
+            "Hardened"
+          ],
+          "MinTargets": 12,
+          "MaxTargets": 12,
+          "MinTargetsLimited": 12,
+          "MaxTargetsLimited": 12,
+          "EnemyType": [
+            "PMC_Geared"
+          ],
+          "LeaderType": "PMC_SMG",
+          "MinEnemies": 3,
+          "MaxEnemies": 3,
+          "MaxEnemiesAlive": 6,
+          "MaxDirections": 3,
+          "SpawnCadence": 25.0,
+          "ScanTime": 25.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 2,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "",
+          "SwarmPlayer": false
+        },
+        {
+          "Encryptions": [
+            "Recursive",
+            "Agile"
+          ],
+          "MinTargets": 12,
+          "MaxTargets": 12,
+          "MinTargetsLimited": 12,
+          "MaxTargetsLimited": 12,
+          "EnemyType": [
+            "PMC_Pistol"
+          ],
+          "LeaderType": "PMC_Chad",
+          "MinEnemies": 3,
+          "MaxEnemies": 3,
+          "MaxEnemiesAlive": 6,
+          "MaxDirections": 3,
+          "SpawnCadence": 25.0,
+          "ScanTime": 40.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 2,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "",
+          "SwarmPlayer": false
+        },
+        {
+          "Encryptions": [
+            "Regenerative",
+            "Swarm",
+            "Swarm",
+            "Swarm"
+          ],
+          "MinTargets": 8,
+          "MaxTargets": 8,
+          "MinTargetsLimited": 8,
+          "MaxTargetsLimited": 8,
+          "EnemyType": [
+            "PMC_Chad"
+          ],
+          "LeaderType": "PMC_Geared",
+          "MinEnemies": 3,
+          "MaxEnemies": 5,
+          "MaxEnemiesAlive": 8,
+          "MaxDirections": 2,
+          "SpawnCadence": 25.0,
+          "ScanTime": 60.0,
+          "WarmupTime": 7.0,
+          "IFFUsed": 2,
+          "GrenadeChance": 0.0,
+          "GrenadeType": "",
+          "SwarmPlayer": false
+        }
+      ],
+      "SupplyChallenge": {
+        "TurretType": "SMG",
+        "EnemyType": "PMC_Geared",
+        "NumTurrets": 0,
+        "NumGuards": 7,
+        "IFFUsed": 2
+      },
+      "Patrols": [
+        {
+          "EnemyType": [
+            "Scav_1"
+          ],
+          "LeaderType": "Scav_1",
+          "PatrolSize": 3,
+          "MaxPatrols": 5,
+          "MaxPatrolsLimited": 5,
+          "PatrolCadence": 30.0,
+          "PatrolCadenceLimited": 30.0,
+          "IFFUsed": 1,
+          "SwarmPlayer": false,
+          "AssualtSpeed": "Walking",
+          "IsBoss": false,
+          "DropChance": 0.65,
+          "DropsHealth": false
+        },
+        {
+          "EnemyType": [
+            "PMC_Chad"
+          ],
+          "LeaderType": "PMC_Geared",
+          "PatrolSize": 4,
+          "MaxPatrols": 5,
+          "MaxPatrolsLimited": 5,
+          "PatrolCadence": 30.0,
+          "PatrolCadenceLimited": 30.0,
+          "IFFUsed": 2,
+          "SwarmPlayer": true,
+          "AssualtSpeed": "Walking",
+          "IsBoss": false,
+          "DropChance": 0.65,
+          "DropsHealth": false
+        },
+        {
+          "EnemyType": [
+            "PMC_Pistol"
+          ],
+          "LeaderType": "PMC_SMG",
+          "PatrolSize": 4,
+          "MaxPatrols": 5,
+          "MaxPatrolsLimited": 5,
+          "PatrolCadence": 30.0,
+          "PatrolCadenceLimited": 30.0,
+          "IFFUsed": 2,
+          "SwarmPlayer": true,
+          "AssualtSpeed": "Running",
+          "IsBoss": false,
+          "DropChance": 0.65,
+          "DropsHealth": false
+        },
+        {
+          "EnemyType": [
+            "PMC_Looter"
+          ],
+          "LeaderType": "PMC_Looter",
+          "PatrolSize": 4,
+          "MaxPatrols": 5,
+          "MaxPatrolsLimited": 5,
+          "PatrolCadence": 30.0,
+          "PatrolCadenceLimited": 30.0,
+          "IFFUsed": 2,
+          "SwarmPlayer": false,
+          "AssualtSpeed": "Sneaking",
+          "IsBoss": false,
+          "DropChance": 0.65,
+          "DropsHealth": true
+        }
+      ]
+    }
+  ]
 }
