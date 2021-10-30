@@ -1,23 +1,10 @@
-﻿{
-  "guid": "h3vr.tnhtweaker.pmcpete",
-  "version": "1.3.5",
-  "require": "0.4.1",
-  "dependencies": {
-      "h3vr.tnhtweaker.deli": "1.6.9"
-  },
-  "name": "PMC Pete",
-  "description": "Welcome to Tarkov!",
-  "source_url": "https://bonetome.com/h3vr/characters/269/",
-  "authors": [ 
-    "Devyn Myers" 
-  ],
-  "assets": {
-    "patcher": {},
-    "setup": {
-      "PMCPete/Sosigs/*sosig*.json": "h3vr.tnhtweaker.deli:sosig",
-      "PMCPete/VaultFiles/*vault*.json": "h3vr.tnhtweaker.deli:vault_file",
-      "PMCPete/": "h3vr.tnhtweaker.deli:character"
-    },
-    "runtime": {}
-  }
+{
+    "name": "PMCPete",
+    "version_number": "1.3.6",
+    "website_url": "https://github.com/devyndamonster/PMCPete",
+    "description": "Welcome To Tarkov",
+    "dependencies": [
+        "DeliCollective-Deli-0.4.1",
+        "devyndamonster-TakeAndHoldTweaker-1.6.7"
+    ]
 }
