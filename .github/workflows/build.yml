@@ -22,13 +22,10 @@ jobs:
     steps:
 
       - name: Checkout repository
-        uses: actions/checkout@master
-
-          
-      - name: Upload a Build Artifact
-        uses: thedoctor0/zip-release@master
-        with:
-          type: 'zip'
-          filename: 'PMCPete.zip'
-          exclusions: '*.git* /*node_modules/* .editorconfig'
+        uses: actions/checkout@v2
+        
+      - name: test stuff
+        run: |
+          ls
+      
  
