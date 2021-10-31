@@ -1,4 +1,4 @@
-﻿{
+{
   "DisplayName": "Shturman",
   "SosigEnemyCategory": "MountainMeats",
   "SosigEnemyID": "Scav_Shturman",
@@ -256,7 +256,7 @@
     "ForceSpawnAllSubPools": true,
     "IDOverride": [
       "vault_svd",
-      "ModulAK105",
+      "vault_ak105",
       "MagazineAK74N",
       "MagazineAK74_20rnd",
       "MagnifierPSO1",
