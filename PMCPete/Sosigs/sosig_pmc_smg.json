@@ -437,8 +437,8 @@
         "IDOverride": [
           "MP5Fore_RIS",
           "MP5PicatinnyAdapter",
-          "ModulPP19Dupe",
-          "ModularMPXDupe",
+          "vault_pp19",
+          "vault_mpx",
           "MuzzleBrakeTruepoint",
           "MuzzleBrakeCobra",
           "MuzzleBrakeImpact",
