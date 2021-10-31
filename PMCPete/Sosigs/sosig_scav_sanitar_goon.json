@@ -255,7 +255,7 @@
     "ForceSpawnAllSubPools": false,
     "IDOverride": [
       "PowerUpMeat_Health",
-      "ModulPP19Dupe",
+      "vault_pp19",
       "vault_saiga12a",
       "Powermag",
       "MagazineSR3M30rnd",
