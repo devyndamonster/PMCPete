@@ -1,4 +1,4 @@
-﻿{
+{
   "DisplayName": "PMC_SMG",
   "SosigEnemyCategory": "MercWieners",
   "SosigEnemyID": "PMC_SMG",
@@ -437,8 +437,8 @@
         "IDOverride": [
           "MP5Fore_RIS",
           "MP5PicatinnyAdapter",
-          "ModulPP19",
-          "ModulMPX",
+          "vault_pp19",
+          "vault_mpx",
           "MuzzleBrakeTruepoint",
           "MuzzleBrakeCobra",
           "MuzzleBrakeImpact",

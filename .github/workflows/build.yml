@@ -40,7 +40,7 @@ jobs:
       - name: Package files
         uses: actions/upload-artifact@v2
         with:
-          name: PMCPeteRelease
+          name: Devyndamonster-PMCPete
           path: Devyndamonster-PMCPete
           
           

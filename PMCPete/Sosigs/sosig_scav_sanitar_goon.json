@@ -1,4 +1,4 @@
-﻿{
+{
   "DisplayName": "Sanitar Goon",
   "SosigEnemyCategory": "MountainMeats",
   "SosigEnemyID": "Scav_Sanitar_Goon",
@@ -255,7 +255,7 @@
     "ForceSpawnAllSubPools": false,
     "IDOverride": [
       "PowerUpMeat_Health",
-      "ModulPP19",
+      "vault_pp19",
       "vault_saiga12a",
       "Powermag",
       "MagazineSR3M30rnd",
