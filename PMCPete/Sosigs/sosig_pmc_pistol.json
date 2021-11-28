@@ -235,8 +235,7 @@
     }
   ],
   "WeaponOptions": [
-    "Sosiggun_Glock",
-    "Sosiggun_GlockSuppressed"
+    "Sosiggun_Glock"
   ],
   "WeaponOptionsSecondary": [
     "SosigMelee_Tanto",
