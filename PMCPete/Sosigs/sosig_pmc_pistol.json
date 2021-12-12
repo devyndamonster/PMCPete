@@ -393,7 +393,7 @@
           "MagazineP226",
           "MagazineP226Extended",
           "MagazineMp515rnd",
-          "magazine_APS"
+          "MagazineAPS"
         ],
         "Eras": [],
         "Sets": [],
@@ -431,7 +431,6 @@
         "IDOverride": [
           "SuppressorM9A1",
           "SuppressorG19",
-          "aps_supressor",
           "AlphaDog9",
           "FischerGMR",
           "SuppressorSalvo",
@@ -471,7 +470,7 @@
         "AutoPopulateGroup": false,
         "ForceSpawnAllSubPools": false,
         "IDOverride": [
-          "aps_wirestock",
+          "StockAPSWire",
           "StockGLR-440",
           "RailedBarrelExtenderMiniSingle",
           "RailAdapterHandgunShort"

@@ -1,4 +1,4 @@
-{
+﻿{
   "$schema": "https://raw.githubusercontent.com/devyndamonster/TakeAndHoldTweaker/master/Schemas/CustomCharacterSchema.json",
   "DisplayName": "PMC Pete",
   "Description": "Welcome to Tarkov",
@@ -1249,7 +1249,7 @@
           "G18C",
           "M9A3",
           "P226",
-          "mchnpistol_APS",
+          "APS",
           "SR1MP",
           "PL14",
           "vault_tt33b"
@@ -1340,7 +1340,7 @@
           "vault_mpx",
           "UMP45",
           "vault_vector9",
-          "vault_vector45",
+          "Vector45",
           "vault_stm"
         ],
         "Eras": [],
@@ -2447,7 +2447,7 @@
               "G17",
               "M9A3",
               "G18C",
-              "mchnpistol_APS",
+              "APS",
               "P226",
               "M1911Modern",
               "MP5KN",

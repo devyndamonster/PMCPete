@@ -1,4 +1,4 @@
-{
+﻿{
   "DisplayName": "PMC_SMG",
   "SosigEnemyCategory": "MercWieners",
   "SosigEnemyID": "PMC_SMG",
@@ -311,7 +311,7 @@
           "vault_saiga9",
           "vault_stm",
           "vault_vector9",
-          "vault_vector45"
+          "Vector45"
         ],
         "Eras": [],
         "Sets": [],
