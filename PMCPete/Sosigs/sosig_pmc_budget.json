@@ -338,7 +338,7 @@
         "ForceSpawnAllSubPools": false,
         "IDOverride": [
           "MB590A1",
-          "KS23",
+          "ftw.gun.ks23L",
           "vault_133b",
           "vault_133c",
           "vault_153b",
@@ -355,7 +355,7 @@
           "vault_aks2",
           "vault_pp19",
           "vault_saiga9",
-          "vault_saiga12b"
+          "Saiga12k"
         ],
         "Eras": [],
         "Sets": [],

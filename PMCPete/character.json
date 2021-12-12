@@ -630,14 +630,15 @@
           "PP91KEDR",
           "SKSClassic",
           "firearmVPO",
-          "vault_saiga12a",
+          "Saiga12k",
           "vault_saiga9",
           "vault_adar",
           "vault_133a",
           "vault_m700b",
           "Vepr Hunter (Wood)",
           "Vepr Hunter",
-          "vault_aks_scav"
+          "vault_aks_scav",
+          "NWMPGrach"
         ],
         "Eras": [],
         "Sets": [],
@@ -1040,10 +1041,9 @@
         "AutoPopulateGroup": false,
         "ForceSpawnAllSubPools": false,
         "IDOverride": [
-          "KS23",
-          "vault_saiga12a",
-          "MB590A1",
-          "vault_saiga12b"
+          "ftw.gun.ks23L",
+          "Saiga12k",
+          "MB590A1"
         ],
         "Eras": [],
         "Sets": [],
@@ -1252,7 +1252,8 @@
           "APS",
           "SR1MP",
           "PL14",
-          "vault_tt33b"
+          "vault_tt33b",
+          "NWMPGrach"
         ],
         "Eras": [],
         "Sets": [],
@@ -2453,7 +2454,8 @@
               "MP5KN",
               "SR1MP",
               "PL14",
-              "vault_tt33a"
+              "vault_tt33a",
+              "NWMPGrach"
             ],
             "Eras": [],
             "Sets": [],
@@ -2779,7 +2781,7 @@
               "SKSClassic",
               "firearmVPO",
               "M1Shorty16",
-              "KS23",
+              "ftw.gun.ks23S",
               "MB590A1",
               "Express870",
               "MP5A4",

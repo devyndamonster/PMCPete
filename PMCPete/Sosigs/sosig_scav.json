@@ -337,7 +337,7 @@
         "ForceSpawnAllSubPools": false,
         "IDOverride": [
           "PPSh41",
-          "vault_saiga12a",
+          "Saiga12k",
           "M1911Classic",
           "Makarov",
           "TT33",
@@ -358,7 +358,8 @@
           "vault_aks_scav",
           "Vepr Hunter (Wood)",
           "Vepr Hunter",
-          "vault_m700b"
+          "vault_m700b",
+          "NWMPGrach"
         ],
         "Eras": [],
         "Sets": [],
