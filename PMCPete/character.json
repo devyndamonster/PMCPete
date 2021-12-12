@@ -842,10 +842,11 @@
         "AutoPopulateGroup": false,
         "ForceSpawnAllSubPools": false,
         "IDOverride": [
-          "vault_svd",
+          "Dragonuv",
           "vault_sr25",
           "RifleAsh12",
-          "Gun.FTW.MK18MJOLNIRTan"
+          "Gun.FTW.MK18MJOLNIRTan",
+          "FSCE.RFB"
         ],
         "Eras": [],
         "Sets": [],
@@ -2653,7 +2654,6 @@
             "ForceSpawnAllSubPools": false,
             "IDOverride": [
               "modulfal",
-              "SVD-S",
               "ModulPP19Dupe",
               "ModulAKSDupe",
               "Modul133Dupe",
@@ -2912,8 +2912,7 @@
           "MagazineStanag20rnd",
           "MagazineFal10rnd",
           "MagazineFal20rnd",
-          "SVD10",
-          "SVD20"
+          "MagazineDragonuv"
         ],
         "Eras": [],
         "Sets": [],

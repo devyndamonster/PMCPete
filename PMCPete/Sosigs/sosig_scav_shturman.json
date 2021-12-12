@@ -255,7 +255,7 @@
     "AutoPopulateGroup": false,
     "ForceSpawnAllSubPools": true,
     "IDOverride": [
-      "vault_svd",
+      "Dragonuv",
       "vault_ak105",
       "MagazineAK74N",
       "MagazineAK74_20rnd",
