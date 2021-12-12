@@ -31,7 +31,11 @@
   "GlobalAmmoBlacklist": [
     "12GaugeShellRedFlare",
     "12GaugeShellDragonsBreath",
-    "20GaugeShellDragonsBreath"
+    "20GaugeShellDragonsBreath",
+    "23x75mmR_Barricade",
+    "23x75mmR_Buckshot",
+    "23x75mmR_CSGas",
+    "23x75mmR_Flash"
   ],
   "MagazineBlacklist": [
     {
