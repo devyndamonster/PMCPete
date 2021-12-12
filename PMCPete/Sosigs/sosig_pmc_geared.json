@@ -520,11 +520,6 @@
         "AutoPopulateGroup": false,
         "ForceSpawnAllSubPools": false,
         "IDOverride": [
-          "box12",
-          "box23x75",
-          "box556",
-          "box545",
-          "box919",
           "PinnedGrenadeF1Russia",
           "PinnedGrenadeM67",
           "PinnedGrenadeRG42",

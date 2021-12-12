@@ -466,46 +466,6 @@
         "ThrownTypes": [],
         "ThrownDamageTypes": [],
         "SubGroups": []
-      },
-      {
-        "Category": "Uncategorized",
-        "Rarity": 1.0,
-        "RequiredQuest": "",
-        "ItemsToSpawn": 1,
-        "MinAmmoCapacity": 0,
-        "MaxAmmoCapacity": 0,
-        "NumMagsSpawned": 0,
-        "NumClipsSpawned": 0,
-        "NumRoundsSpawned": 0,
-        "SpawnMagAndClip": false,
-        "BespokeAttachmentChance": 0.0,
-        "IsCompatibleMagazine": false,
-        "AutoPopulateGroup": false,
-        "ForceSpawnAllSubPools": false,
-        "IDOverride": [
-          "box12",
-          "box23x75",
-          "box556",
-          "box545",
-          "box919"
-        ],
-        "Eras": [],
-        "Sets": [],
-        "Sizes": [],
-        "Actions": [],
-        "Modes": [],
-        "ExcludedModes": [],
-        "FeedOptions": [],
-        "MountsAvailable": [],
-        "RoundPowers": [],
-        "Features": [],
-        "MeleeStyles": [],
-        "MeleeHandedness": [],
-        "MountTypes": [],
-        "PowerupTypes": [],
-        "ThrownTypes": [],
-        "ThrownDamageTypes": [],
-        "SubGroups": []
       }
     ]
   }

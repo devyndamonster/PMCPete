@@ -261,9 +261,7 @@
     "IsCompatibleMagazine": false,
     "AutoPopulateGroup": false,
     "ForceSpawnAllSubPools": false,
-    "IDOverride": [
-      "box919"
-    ],
+    "IDOverride": [],
     "Eras": [],
     "Sets": [],
     "Sizes": [],
