@@ -182,7 +182,9 @@
       "AutoPopulateGroup": false,
       "ForceSpawnAllSubPools": false,
       "IDOverride": [
-        "Makarov"
+        "Makarov",
+        "pbpistol",
+        "Rhino 60"
       ],
       "Eras": [],
       "Sets": [],
@@ -1350,8 +1352,8 @@
           "vault_pp19",
           "vault_mpx",
           "UMP45",
-          "vault_vector9",
-          "Vector45",
+          "FTWGunVector9mm",
+          "ftw.vector.45",
           "vault_stm"
         ],
         "Eras": [],
@@ -1471,7 +1473,7 @@
         "AutoPopulateGroup": false,
         "ForceSpawnAllSubPools": false,
         "IDOverride": [
-          "deserttech MDR",
+          "FSCE.MDRTAN",
           "ASVAL",
           "H416",
           "vault_mcx",
@@ -2805,7 +2807,7 @@
               "VSSVintorez",
               "H416",
               "SKSModern",
-              "deserttech MDR",
+              "FSCE.MDRTAN",
               "ModulAK74M",
               "ModulAK101",
               "ModulAK102",

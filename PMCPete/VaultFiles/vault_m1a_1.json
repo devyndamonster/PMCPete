@@ -46,16 +46,16 @@
       "IsAttachment": false,
       "Flags": {
         "HammerState": "Uncocked",
-        "FireSelectorState": "0"
+        "FireSelectorState": "1"
       }
     },
     {
       "Index": 1,
       "ObjectID": "FTW.Gun.SocomFrame",
       "PosOffset": {
-        "x": 0.00160002371,
-        "y": 0.01349997,
-        "z": 0.0009000289
+        "x": 0.00259994948,
+        "y": 0.0135000348,
+        "z": -0.000984906
       },
       "OrientationForward": {
         "x": 0.0,
@@ -63,12 +63,12 @@
         "z": 1.0
       },
       "OrientationUp": {
-        "x": 0.0,
+        "x": 7.45057971E-09,
         "y": 1.0,
         "z": 0.0
       },
       "ObjectAttachedTo": 0,
-      "MountAttachedTo": 2,
+      "MountAttachedTo": 1,
       "IsFirearm": false,
       "IsMagazine": false,
       "IsAttachment": true,
@@ -78,9 +78,9 @@
       "Index": 2,
       "ObjectID": "FTW.Gun.barrel16",
       "PosOffset": {
-        "x": 6.997571E-05,
-        "y": 0.0453400426,
-        "z": 0.2260999
+        "x": 6.99757147E-05,
+        "y": 0.04534,
+        "z": 0.226100191
       },
       "OrientationForward": {
         "x": 0.0,
@@ -88,7 +88,7 @@
         "z": 1.0
       },
       "OrientationUp": {
-        "x": 7.450581E-09,
+        "x": -1.86264493E-09,
         "y": 1.0,
         "z": 0.0
       },
@@ -103,19 +103,19 @@
       "Index": 3,
       "ObjectID": "FTW.Gun.SocomUpper",
       "PosOffset": {
-        "x": 0.0009000283,
-        "y": 0.0395001024,
-        "z": 0.443601251
+        "x": 0.002400036,
+        "y": 0.0395000577,
+        "z": 0.441714972
       },
       "OrientationForward": {
-        "x": -1.1548392E-06,
-        "y": -1.10082385E-06,
+        "x": -1.16228989E-06,
+        "y": -1.15856574E-06,
         "z": 1.0
       },
       "OrientationUp": {
-        "x": -1.19209346E-06,
+        "x": -1.07288417E-06,
         "y": 1.0,
-        "z": 1.10082249E-06
+        "z": 1.1585646E-06
       },
       "ObjectAttachedTo": 1,
       "MountAttachedTo": 0,
@@ -126,36 +126,11 @@
     },
     {
       "Index": 4,
-      "ObjectID": "FTW.Gun.FrontSight2",
+      "ObjectID": "FTW.Gun.stripperguide",
       "PosOffset": {
-        "x": 0.0019400079,
-        "y": 0.06672403,
-        "z": 0.6732499
-      },
-      "OrientationForward": {
-        "x": -3.259629E-09,
-        "y": -3.10363248E-07,
-        "z": 1.0
-      },
-      "OrientationUp": {
-        "x": -5.058345E-16,
-        "y": 1.0,
-        "z": 3.10363248E-07
-      },
-      "ObjectAttachedTo": 2,
-      "MountAttachedTo": 1,
-      "IsFirearm": false,
-      "IsMagazine": false,
-      "IsAttachment": true,
-      "Flags": {}
-    },
-    {
-      "Index": 5,
-      "ObjectID": "FTW.Gun.RearSight",
-      "PosOffset": {
-        "x": 0.00269996561,
-        "y": 0.06649998,
-        "z": 0.08740008
+        "x": 0.0,
+        "y": 0.06379998,
+        "z": 0.122700073
       },
       "OrientationForward": {
         "x": 0.0,
@@ -168,7 +143,57 @@
         "z": 0.0
       },
       "ObjectAttachedTo": 0,
-      "MountAttachedTo": 3,
+      "MountAttachedTo": 5,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 5,
+      "ObjectID": "FTW.Gun.FrontSight",
+      "PosOffset": {
+        "x": 0.00193988893,
+        "y": 0.06672394,
+        "z": 0.673250735
+      },
+      "OrientationForward": {
+        "x": -9.214849E-15,
+        "y": -3.09199066E-07,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 5.96046377E-08,
+        "y": 1.0,
+        "z": 3.09199066E-07
+      },
+      "ObjectAttachedTo": 2,
+      "MountAttachedTo": 1,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 6,
+      "ObjectID": "FTW.Gun.RearSight",
+      "PosOffset": {
+        "x": 0.00269996584,
+        "y": 0.06650001,
+        "z": 0.0874001
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 2,
       "IsFirearm": false,
       "IsMagazine": false,
       "IsAttachment": true,

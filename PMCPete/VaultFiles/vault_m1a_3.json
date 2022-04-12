@@ -46,16 +46,16 @@
       "IsAttachment": false,
       "Flags": {
         "HammerState": "Uncocked",
-        "FireSelectorState": "0"
+        "FireSelectorState": "1"
       }
     },
     {
       "Index": 1,
-      "ObjectID": "FTW.Gun.SASSFrame",
+      "ObjectID": "FTW.Gun.stripperguide",
       "PosOffset": {
-        "x": 0.00159990392,
-        "y": 0.0135000227,
-        "z": 0.0009000278
+        "x": 0.0,
+        "y": 0.06379998,
+        "z": 0.122699991
       },
       "OrientationForward": {
         "x": 0.0,
@@ -63,12 +63,12 @@
         "z": 1.0
       },
       "OrientationUp": {
-        "x": -2.98023224E-08,
+        "x": 0.0,
         "y": 1.0,
         "z": 0.0
       },
       "ObjectAttachedTo": 0,
-      "MountAttachedTo": 2,
+      "MountAttachedTo": 5,
       "IsFirearm": false,
       "IsMagazine": false,
       "IsAttachment": true,
@@ -78,9 +78,9 @@
       "Index": 2,
       "ObjectID": "FTW.Gun.barrel20",
       "PosOffset": {
-        "x": 6.997568E-05,
-        "y": 0.04534002,
-        "z": 0.2261001
+        "x": 6.997589E-05,
+        "y": 0.045339942,
+        "z": 0.2261
       },
       "OrientationForward": {
         "x": 0.0,
@@ -101,11 +101,11 @@
     },
     {
       "Index": 3,
-      "ObjectID": "AR15TubeSIBlack",
+      "ObjectID": "FTW.Gun.SASSFrame",
       "PosOffset": {
-        "x": 0.0011999578,
-        "y": 0.04640009,
-        "z": -0.0338999368
+        "x": 0.002600075,
+        "y": 0.0135000348,
+        "z": -0.0009849073
       },
       "OrientationForward": {
         "x": 0.0,
@@ -117,8 +117,8 @@
         "y": 1.0,
         "z": 0.0
       },
-      "ObjectAttachedTo": 1,
-      "MountAttachedTo": 5,
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 1,
       "IsFirearm": false,
       "IsMagazine": false,
       "IsAttachment": true,
@@ -126,11 +126,11 @@
     },
     {
       "Index": 4,
-      "ObjectID": "AR15StockCTRFDE",
+      "ObjectID": "AR15TubeA2Black",
       "PosOffset": {
-        "x": 0.00119983859,
-        "y": 0.04640003,
-        "z": -0.223899975
+        "x": 0.0022000086,
+        "y": 0.04640013,
+        "z": -0.0357849635
       },
       "OrientationForward": {
         "x": 0.0,
@@ -143,7 +143,7 @@
         "z": 0.0
       },
       "ObjectAttachedTo": 3,
-      "MountAttachedTo": 0,
+      "MountAttachedTo": 5,
       "IsFirearm": false,
       "IsMagazine": false,
       "IsAttachment": true,
@@ -151,24 +151,24 @@
     },
     {
       "Index": 5,
-      "ObjectID": "AR15GripA2FDE",
+      "ObjectID": "AR15StockCTRFDE",
       "PosOffset": {
-        "x": 0.00160002313,
-        "y": -0.0207000189,
-        "z": 0.0108000953
+        "x": 0.00219988939,
+        "y": 0.04640013,
+        "z": -0.215784818
       },
       "OrientationForward": {
-        "x": 1.117587E-08,
-        "y": 3.72528985E-09,
+        "x": 0.0,
+        "y": 0.0,
         "z": 1.0
       },
       "OrientationUp": {
-        "x": 2.08166784E-17,
-        "y": -1.0,
-        "z": 3.72528985E-09
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
       },
-      "ObjectAttachedTo": 1,
-      "MountAttachedTo": 6,
+      "ObjectAttachedTo": 4,
+      "MountAttachedTo": 0,
       "IsFirearm": false,
       "IsMagazine": false,
       "IsAttachment": true,
@@ -176,24 +176,24 @@
     },
     {
       "Index": 6,
-      "ObjectID": "IronRearSight",
+      "ObjectID": "AR15GripA2FDE",
       "PosOffset": {
-        "x": 0.00160002313,
-        "y": 0.08180003,
-        "z": 0.0134279383
+        "x": 0.002600075,
+        "y": -0.0206999183,
+        "z": 0.008915187
       },
       "OrientationForward": {
-        "x": -1.33226742E-15,
-        "y": 4.470348E-08,
+        "x": 7.450581E-09,
+        "y": 0.0,
         "z": 1.0
       },
       "OrientationUp": {
-        "x": -5.96046377E-08,
-        "y": 1.0,
-        "z": -4.470348E-08
+        "x": 0.0,
+        "y": -1.0,
+        "z": 0.0
       },
-      "ObjectAttachedTo": 1,
-      "MountAttachedTo": 1,
+      "ObjectAttachedTo": 3,
+      "MountAttachedTo": 6,
       "IsFirearm": false,
       "IsMagazine": false,
       "IsAttachment": true,
@@ -201,24 +201,24 @@
     },
     {
       "Index": 7,
-      "ObjectID": "IronFrontSight",
+      "ObjectID": "FTW.Gun.Break",
       "PosOffset": {
-        "x": 0.00159990392,
-        "y": 0.08180003,
-        "z": 0.5493047
+        "x": 0.00234699366,
+        "y": 0.0444378257,
+        "z": 0.8366662
       },
       "OrientationForward": {
-        "x": 2.98023188E-08,
-        "y": 2.98023188E-08,
+        "x": 0.0,
+        "y": 0.0,
         "z": 1.0
       },
       "OrientationUp": {
-        "x": -4.440891E-16,
+        "x": 2.98023224E-08,
         "y": 1.0,
-        "z": -2.98023188E-08
+        "z": 0.0
       },
-      "ObjectAttachedTo": 1,
-      "MountAttachedTo": 1,
+      "ObjectAttachedTo": 2,
+      "MountAttachedTo": 0,
       "IsFirearm": false,
       "IsMagazine": false,
       "IsAttachment": true,

@@ -345,12 +345,13 @@
           "vault_m1a_1",
           "vault_sr25",
           "vault_mpx",
-          "vault_vector9",
-          "Vector45",
+          "FTWGunVector9mm",
+          "ftw.vector.45",
           "vault_m700f",
           "vault_m700e",
           "vault_t5000",
-          "FSCE.RFB"
+          "FSCE.RFB",
+          "FSCE.MDRTAN"
         ],
         "Eras": [],
         "Sets": [],
