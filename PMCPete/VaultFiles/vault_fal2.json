@@ -10,17 +10,17 @@
   "OverrideFireSelectors": false,
   "FireSelectorModes": [
     {
-      "SelectorPosition": -57.15,
+      "SelectorPosition": -54.0,
       "ModeType": "Safe",
       "BurstAmount": 0
     },
     {
-      "SelectorPosition": -85.077,
+      "SelectorPosition": -87.0,
       "ModeType": "Single",
       "BurstAmount": 0
     },
     {
-      "SelectorPosition": -242.941,
+      "SelectorPosition": -235.0,
       "ModeType": "FullAuto",
       "BurstAmount": 3
     }
@@ -28,7 +28,7 @@
   "Components": [
     {
       "Index": 0,
-      "ObjectID": "modulfal",
+      "ObjectID": "NWSA581",
       "PosOffset": {
         "x": 0.0,
         "y": 0.0,
@@ -50,142 +50,20 @@
       "IsMagazine": false,
       "IsAttachment": false,
       "Flags": {
+        "IsKinematicLocked": "False",
+        "IsPickupLocked": "False",
+        "QuickBeltSpecialStateEngaged": "False",
         "HammerState": "Uncocked",
-        "FireSelectorState": "1"
+        "FireSelectorState": "2"
       }
     },
     {
       "Index": 1,
-      "ObjectID": "fal553",
+      "ObjectID": "NWBelGuardStd",
       "PosOffset": {
-        "x": 0.0160999969,
-        "y": 0.0479999445,
-        "z": 0.188500136
-      },
-      "OrientationForward": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 1.0
-      },
-      "OrientationUp": {
-        "x": 0.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "ObjectAttachedTo": 0,
-      "MountAttachedTo": 0,
-      "IsFirearm": false,
-      "IsMagazine": false,
-      "IsAttachment": true,
-      "Flags": {}
-    },
-    {
-      "Index": 2,
-      "ObjectID": "falgrip",
-      "PosOffset": {
-        "x": 0.01620013,
-        "y": 0.007900043,
-        "z": -0.00429986743
-      },
-      "OrientationForward": {
-        "x": -6.50611938E-08,
-        "y": -0.134702966,
-        "z": 0.990886033
-      },
-      "OrientationUp": {
-        "x": 3.62847572E-07,
-        "y": -0.9908861,
-        "z": -0.134702966
-      },
-      "ObjectAttachedTo": 0,
-      "MountAttachedTo": 2,
-      "IsFirearm": false,
-      "IsMagazine": false,
-      "IsAttachment": true,
-      "Flags": {}
-    },
-    {
-      "Index": 3,
-      "ObjectID": "faldust",
-      "PosOffset": {
-        "x": 0.0154000018,
-        "y": 0.0602999926,
-        "z": -0.0419000462
-      },
-      "OrientationForward": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 1.0
-      },
-      "OrientationUp": {
-        "x": 0.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "ObjectAttachedTo": 0,
-      "MountAttachedTo": 3,
-      "IsFirearm": false,
-      "IsMagazine": false,
-      "IsAttachment": true,
-      "Flags": {}
-    },
-    {
-      "Index": 4,
-      "ObjectID": "falsight",
-      "PosOffset": {
-        "x": 0.0163000282,
-        "y": 0.06981997,
-        "z": -0.06079991
-      },
-      "OrientationForward": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 1.0
-      },
-      "OrientationUp": {
-        "x": 0.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "ObjectAttachedTo": 0,
-      "MountAttachedTo": 5,
-      "IsFirearm": false,
-      "IsMagazine": false,
-      "IsAttachment": true,
-      "Flags": {}
-    },
-    {
-      "Index": 5,
-      "ObjectID": "falpolystock",
-      "PosOffset": {
-        "x": 0.0165999588,
-        "y": 0.0496000275,
-        "z": -0.07589988
-      },
-      "OrientationForward": {
-        "x": 0.0,
-        "y": 0.0,
-        "z": 1.0
-      },
-      "OrientationUp": {
-        "x": 0.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "ObjectAttachedTo": 0,
-      "MountAttachedTo": 1,
-      "IsFirearm": false,
-      "IsMagazine": false,
-      "IsAttachment": true,
-      "Flags": {}
-    },
-    {
-      "Index": 6,
-      "ObjectID": "falog",
-      "PosOffset": {
-        "x": 0.0163999256,
-        "y": 0.058499936,
-        "z": 0.201900184
+        "x": 0.000800010632,
+        "y": 0.0585000031,
+        "z": 0.202119827
       },
       "OrientationForward": {
         "x": 0.0,
@@ -202,7 +80,156 @@
       "IsFirearm": false,
       "IsMagazine": false,
       "IsAttachment": true,
-      "Flags": {}
+      "Flags": {
+        "IsKinematicLocked": "False",
+        "IsPickupLocked": "False",
+        "QuickBeltSpecialStateEngaged": "False"
+      }
+    },
+    {
+      "Index": 2,
+      "ObjectID": "NWFALExtBarrel",
+      "PosOffset": {
+        "x": 0.000199913251,
+        "y": 0.0496698879,
+        "z": 0.188239858
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 0,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {
+        "IsKinematicLocked": "False",
+        "IsPickupLocked": "False",
+        "QuickBeltSpecialStateEngaged": "False"
+      }
+    },
+    {
+      "Index": 3,
+      "ObjectID": "NWFalGrip",
+      "PosOffset": {
+        "x": 0.00076997,
+        "y": 0.0076799253,
+        "z": -0.004630078
+      },
+      "OrientationForward": {
+        "x": 1.81939E-09,
+        "y": -0.12186946,
+        "z": 0.992546141
+      },
+      "OrientationUp": {
+        "x": 2.97467349E-08,
+        "y": -0.9925461,
+        "z": -0.12186946
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 2,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {
+        "IsKinematicLocked": "False",
+        "IsPickupLocked": "False",
+        "QuickBeltSpecialStateEngaged": "False"
+      }
+    },
+    {
+      "Index": 4,
+      "ObjectID": "NWHumpbackStd",
+      "PosOffset": {
+        "x": 0.0009399618,
+        "y": 0.04790005,
+        "z": -0.0760000348
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 1,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {
+        "IsKinematicLocked": "False",
+        "IsPickupLocked": "False",
+        "QuickBeltSpecialStateEngaged": "False"
+      }
+    },
+    {
+      "Index": 5,
+      "ObjectID": "NWParaSight",
+      "PosOffset": {
+        "x": 0.000730035,
+        "y": 0.06982004,
+        "z": -0.060799934
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 5,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {
+        "IsKinematicLocked": "False",
+        "IsPickupLocked": "False",
+        "QuickBeltSpecialStateEngaged": "False"
+      }
+    },
+    {
+      "Index": 6,
+      "ObjectID": "NWFalDust",
+      "PosOffset": {
+        "x": -0.0003000487,
+        "y": 0.0605000928,
+        "z": -0.04190006
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 0,
+      "MountAttachedTo": 3,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {
+        "IsKinematicLocked": "False",
+        "IsPickupLocked": "False",
+        "QuickBeltSpecialStateEngaged": "False"
+      }
     }
   ]
 }
