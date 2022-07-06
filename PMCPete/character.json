@@ -184,7 +184,8 @@
       "IDOverride": [
         "Makarov",
         "pbpistol",
-        "Rhino 60"
+        "Rhino 60",
+        "ShgBrkSP81"
       ],
       "Eras": [],
       "Sets": [],
@@ -1479,7 +1480,8 @@
           "vault_mcx",
           "vault_adar",
           "vault_mutant",
-          "Mk16Mod0"
+          "Mk16Mod0",
+          "G36"
         ],
         "Eras": [],
         "Sets": [],
