@@ -81,31 +81,6 @@
     },
     {
       "Index": 3,
-      "ObjectID": "AttStockStandardM4",
-      "PosOffset": {
-        "x": 1.192091E-07,
-        "y": 0.0284000281,
-        "z": -0.0608004257
-      },
-      "OrientationForward": {
-        "x": -6.347225E-08,
-        "y": 0.1339862,
-        "z": 0.9909832
-      },
-      "OrientationUp": {
-        "x": -5.54679858E-08,
-        "y": 0.9909832,
-        "z": -0.1339862
-      },
-      "ObjectAttachedTo": 2,
-      "MountAttachedTo": 0,
-      "IsFirearm": false,
-      "IsMagazine": false,
-      "IsAttachment": true,
-      "Flags": {}
-    },
-    {
-      "Index": 4,
       "ObjectID": "Fore133P",
       "PosOffset": {
         "x": 0.0,
@@ -130,7 +105,7 @@
       "Flags": {}
     },
     {
-      "Index": 5,
+      "Index": 4,
       "ObjectID": "Barrel133610",
       "PosOffset": {
         "x": 0.0,
