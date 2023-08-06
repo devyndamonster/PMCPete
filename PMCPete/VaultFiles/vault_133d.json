@@ -81,7 +81,7 @@
     },
     {
       "Index": 3,
-      "ObjectID": "AttStockStandardM4",
+      "ObjectID": "AR15TubeA2Black",
       "PosOffset": {
         "x": 1.192091E-07,
         "y": 0.0284000281,
@@ -149,6 +149,31 @@
       },
       "ObjectAttachedTo": 0,
       "MountAttachedTo": 3,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 6,
+      "ObjectID": "AR15StockM4SS",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.004282348,
+        "z": -0.239178
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.13398625,
+        "z": 0.9909832
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 0.9909832,
+        "z": -0.13398625
+      },
+      "ObjectAttachedTo": 3,
+      "MountAttachedTo": 0,
       "IsFirearm": false,
       "IsMagazine": false,
       "IsAttachment": true,

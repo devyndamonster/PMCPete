@@ -56,7 +56,7 @@
     },
     {
       "Index": 2,
-      "ObjectID": "AttStockStandardM4",
+      "ObjectID": "AR15TubeA2Black",
       "PosOffset": {
         "x": -2.38417741E-07,
         "y": 0.0311000552,
@@ -81,7 +81,7 @@
     },
     {
       "Index": 3,
-      "ObjectID": "AttForeGripHK_BattleGrip",
+      "ObjectID": "AR15GripBattleGrip",
       "PosOffset": {
         "x": -1.1920887E-07,
         "y": 0.00689004967,
@@ -149,6 +149,31 @@
       },
       "ObjectAttachedTo": 0,
       "MountAttachedTo": 3,
+      "IsFirearm": false,
+      "IsMagazine": false,
+      "IsAttachment": true,
+      "Flags": {}
+    },
+    {
+      "Index": 6,
+      "ObjectID": "AR15StockM4SS",
+      "PosOffset": {
+        "x": 0.0,
+        "y": 0.0310997162,
+        "z": -0.2499501
+      },
+      "OrientationForward": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 1.0
+      },
+      "OrientationUp": {
+        "x": 0.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "ObjectAttachedTo": 2,
+      "MountAttachedTo": 0,
       "IsFirearm": false,
       "IsMagazine": false,
       "IsAttachment": true,

@@ -636,7 +636,7 @@
           "Toz106",
           "PP91KEDR",
           "SKSClassic",
-          "firearmVPO",
+          "ftw.vpo.215",
           "Saiga12k",
           "vault_saiga9",
           "vault_adar",
@@ -2666,7 +2666,7 @@
             "AutoPopulateGroup": false,
             "ForceSpawnAllSubPools": false,
             "IDOverride": [
-              "modulfal",
+              "NWSA581",
               "ModulPP19Dupe",
               "ModulAKSDupe",
               "Modul133Dupe",
@@ -2792,7 +2792,7 @@
               "MosinM38",
               "SV98",
               "SKSClassic",
-              "firearmVPO",
+              "ftw.vpo.215",
               "M1Shorty16",
               "ftw.gun.ks23S",
               "MB590A1",
@@ -3799,9 +3799,11 @@
         "AutoPopulateGroup": false,
         "ForceSpawnAllSubPools": true,
         "IDOverride": [
-          "fal280",
-          "fal406",
-          "fal553"
+          "NW5063Short",
+          "NW5063Barrel",
+          "NWFALStdBarrel",
+          "NWFALParaBarrelExt",
+          "NWFALExtBarrel"
         ],
         "Eras": [],
         "Sets": [],
@@ -3836,9 +3838,9 @@
             "AutoPopulateGroup": false,
             "ForceSpawnAllSubPools": false,
             "IDOverride": [
-              "falcustomdust",
-              "faldust",
-              "falheavy"
+              "NWFALCustomDust",
+              "NWFalDust",
+              "NWDSAHeavy"
             ],
             "Eras": [],
             "Sets": [],
@@ -3874,10 +3876,10 @@
             "AutoPopulateGroup": false,
             "ForceSpawnAllSubPools": false,
             "IDOverride": [
-              "fabfalgrip",
-              "falgrip",
-              "falsawgrip",
-              "falpolygrip"
+              "NWFalFABGrip",
+              "NWFalGrip",
+              "NWFALSawGrip",
+              "NWFalGripMPoly"
             ],
             "Eras": [],
             "Sets": [],
@@ -3913,8 +3915,8 @@
             "AutoPopulateGroup": false,
             "ForceSpawnAllSubPools": false,
             "IDOverride": [
-              "falsight",
-              "falrailsight"
+              "NWParaSight",
+              "NWFalRailSight"
             ],
             "Eras": [],
             "Sets": [],
@@ -3950,11 +3952,11 @@
             "AutoPopulateGroup": false,
             "ForceSpawnAllSubPools": false,
             "IDOverride": [
-              "falbattle",
-              "falmagpul",
-              "falpara",
-              "falsbr",
-              "falbuffer"
+              "NWFALBattle",
+              "NWFalMagpul",
+              "NWFALParaStock",
+              "NWSBRStock",
+              "NWFalBuffer"
             ],
             "Eras": [],
             "Sets": [],
@@ -3990,17 +3992,17 @@
             "AutoPopulateGroup": false,
             "ForceSpawnAllSubPools": false,
             "IDOverride": [
-              "falbel",
-              "falcustomgrip",
-              "falmodernguard",
-              "falmodernpara",
-              "falparacustomguard",
-              "falpolyguard",
-              "falquad",
-              "falquadshort",
-              "falshort",
-              "falvtol",
-              "falvtollong"
+              "NWBelGuardStd",
+              "NWFalSport",
+              "NWFalModernGuard",
+              "NWFalParaModern",
+              "NWMlokGuardS",
+              "NWBelModPoly",
+              "NWFalQuadLong",
+              "NWFalQuadShort",
+              "NWFalParaBelSTD",
+              "NWFalVltorShort",
+              "NWVltorLong"
             ],
             "Eras": [],
             "Sets": [],
@@ -5067,8 +5069,8 @@
         "AutoPopulateGroup": false,
         "ForceSpawnAllSubPools": false,
         "IDOverride": [
-          "ftw.optics.NSPUM",
-          "ftw.optic.Vulcan"
+          "FSCE.NSPUM",
+          "FSCE.Vulcan"
         ],
         "Eras": [],
         "Sets": [],
